@@ -6,7 +6,7 @@ function Experience() {
   return (
     <div className="mb-16 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
-        <h2 className="py-4 font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
+        <h2 className="font-serif py-4 text-base font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
           Experience
         </h2>
       </div>
@@ -23,7 +23,7 @@ function Experience() {
               target="_blank"
               rel="noopener"
             >
-              <span>Research Assistant • E3 Research Group @ NTU</span>
+              <span>RA • E3 Research Group @ NTU</span>
               <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
             </a>
           </div>
@@ -73,12 +73,12 @@ function Experience() {
           </li>
           <li className="mr-2 mt-2">
             <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
-              Computational Statistics
+              Game theory
             </div>
           </li>
           <li className="mr-2 mt-2">
             <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
-              Game theory
+              Computational Statistics
             </div>
           </li>
           <li className="mr-2 mt-2">
@@ -105,7 +105,7 @@ function Experience() {
               target="_blank"
               rel="noopener"
             >
-              <span>Teaching Assistant • NTU College of Engineering</span>
+              <span>TA • NTU College of Engineering</span>
               <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
             </a>
           </div>

@@ -1,27 +1,69 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaMedium } from "react-icons/fa6";
 
 function Home() {
   return (
-    <div className="relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
-      <div className="mb-12 flex-col justify-between ">
+    <div className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
+      <div className="mb-2 flex-col justify-between ">
         <h1 className="text-4xl md:text-5xl lg:text-4xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
           <a href="/">Wei Chun Tseng</a>
         </h1>
 
-        <p className="mt-4 mb-12 md:text-lg max-w-xs font-semibold">
+        <p className="mt-4 mb-16 md:text-lg max-w-xs font-medium">
           I am passionate about software development and data science.
         </p>
 
+        <ul className="hidden lg:block mb-24">
+          <li>
+            <Link
+              to="about"
+              spy={true}
+              smooth={false}
+              offset={-128}
+              isDynamic={true}
+              easing="easeLinear"
+              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+            >
+              about
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="experience"
+              spy={true}
+              smooth={false}
+              offset={-50}
+              isDynamic={true}
+              easing="easeLinear"
+              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+            >
+              experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="project"
+              spy={true}
+              smooth={false}
+              offset={-50}
+              isDynamic={true}
+              easing="easeLinear"
+              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+            >
+              project
+            </Link>
+          </li>
+        </ul>
+
         <p className="hover:dark:text-slate-200 hover:text-blue-700">
           <a
-            className="inline-flex items-center font-semibold leading-tight text-base"
+            className="inline-flex items-center font-medium leading-tight text-base md:text-lg"
             href="mailto: wctseng99@gmail.com"
           >
-            <MdEmail className="mr-2" />
-            {/* <span>Contact me:</span> */}
+            <MdEmail className="mt-0.5 mr-2" />
             <span>wctseng99@gmail.com</span>
           </a>
         </p>

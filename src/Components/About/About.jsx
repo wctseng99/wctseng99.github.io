@@ -4,7 +4,7 @@ function about() {
   return (
     <div className="mb-16 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
-        <h2 className="py-4 font-bold uppercase tracking-widest text-slate-800 dark:text-slate-400 ">
+        <h2 className="font-serif py-4 text-base font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
           About
         </h2>
       </div>
@@ -19,13 +19,21 @@ function about() {
           purus. Aliquam congue bibendum arcu vel maximus.
         </p>
         <p className="mb-4">
-          Aenean quis metus ut sem fermentum consectetur id at nibh. 
-          Etiam pulvinar, diam vitae congue ullamcorper, mi enim ornare lectus, at
-          faucibus est urna quis diam. Pellentesque interdum ligula lorem, 
+          Aenean quis metus ut sem fermentum consectetur id at nibh. Etiam
+          pulvinar, diam vitae congue ullamcorper, mi enim ornare lectus, at
+          faucibus est urna quis diam. Pellentesque interdum ligula lorem,
           egetblandit odio consectetur ut. Aliquam tristique lacus at lectus
           viverra, nec pulvinar nunc dignissim. In volutpat sit amet mi id
           volutpat. Cras molestie facilisis nisi, vel consequat libero sagittis
           imperdiet.
+        </p>
+        <p className="mb-4">
+          Mauris hendrerit felis ac sem tempor tristique. Maecenas non lacus et
+          quam auctor condimentum a sit amet magna. Curabitur quis luctus lorem,
+          a accumsan magna. Fusce sodales rhoncus velit id convallis. Duis
+          libero odio, volutpat a tempor vel, tincidunt id diam. Aenean at
+          libero at lorem rhoncus cursus. Donec accumsan mi eget interdum
+          commodo.
         </p>
       </div>
     </div>
