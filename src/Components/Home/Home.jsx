@@ -5,9 +5,9 @@ import { FaMedium } from "react-icons/fa6";
 
 function Home() {
   return (
-    <div className="relative lg:sticky w-full lg:w-1/2 lg:top-24 lg:max-h-screen lg:py-24 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
-      <div className="mb-12 flex-col justify-between">
-        <h1 className="text-4xl md:text-5xl lg:text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
+    <div className="relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
+      <div className="mb-12 flex-col justify-between ">
+        <h1 className="text-4xl md:text-5xl lg:text-4xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
           <a href="/">Wei Chun Tseng</a>
         </h1>
 
@@ -17,11 +17,12 @@ function Home() {
 
         <p className="hover:dark:text-slate-200 hover:text-blue-700">
           <a
-            className="inline-flex items-center font-medium leading-tight text-base"
+            className="inline-flex items-center font-semibold leading-tight text-base"
             href="mailto: wctseng99@gmail.com"
           >
             <MdEmail className="mr-2" />
-            <span>Contact me: wctseng99@gmail.com</span>
+            {/* <span>Contact me:</span> */}
+            <span>wctseng99@gmail.com</span>
           </a>
         </p>
       </div>
