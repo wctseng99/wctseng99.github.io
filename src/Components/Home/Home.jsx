@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="relative lg:sticky w-full lg:w-1/2 lg:top-24 lg:max-h-screen lg:py-24 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
       <div className="mb-12 flex-col justify-between">
-        <h1 className="text-5xl md:text-5xl lg:text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
+        <h1 className="text-4xl md:text-5xl lg:text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
           <a href="/">Wei Chun Tseng</a>
         </h1>
 
