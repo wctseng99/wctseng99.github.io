@@ -60,7 +60,7 @@ function Home() {
 
         <p className="hover:dark:text-slate-200 hover:text-blue-700">
           <a
-            className="inline-flex items-center font-medium leading-tight text-base md:text-lg"
+            className="inline-flex items-center font-medium leading-tight tracking-tighter text-base md:text-lg"
             href="mailto: wctseng99@gmail.com"
           >
             <MdEmail className="mt-0.5 mr-2" />
