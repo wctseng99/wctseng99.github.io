@@ -13,13 +13,13 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   useEffect(() => {
-    var delay = 0;
-    $("[data-aos]").each(function () {
-      if ($(this).is(":visible")) {
-        delay = delay + 500;
-        $(this).attr("data-aos-delay", delay);
-      }
-    });
+    // var delay = 0;
+    // $("[data-aos]").each(function () {
+    //   if ($(this).is(":visible")) {
+    //     delay = delay + 500;
+    //     $(this).attr("data-aos-delay", delay);
+    //   }
+    // });
     AOS.init();
 
     // Scroll to the top on component mount
@@ -34,13 +34,13 @@ function App() {
         </div>
         <div className="lg:flex lg:flex-row lg:justify-between lg:gap-8">
           <Home />
-          <div
-            // data-aos="fade-up"
-            // data-aos-duration="500"
-            className="lg:w-1/2 lg:py-32 "
-          >
+          <div className="lg:w-1/2 lg:py-32 ">
             <Element name="about">
-              <div data-aos="fade-up" data-aos-duration="500">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-delay="2500"
+              >
                 <About />
               </div>
             </Element>

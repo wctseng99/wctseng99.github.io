@@ -22,6 +22,7 @@ function Home() {
         <p
           data-aos="fade-up"
           data-aos-duration="500"
+          data-aos-delay="500"
           data-aos-once="true"
           className="mt-4 mb-16 md:text-lg max-w-xs font-medium"
         >
@@ -31,6 +32,7 @@ function Home() {
         <ul
           data-aos="fade-up"
           data-aos-duration="500"
+          data-aos-delay="1000"
           data-aos-once="true"
           className="hidden lg:block mb-24"
         >
@@ -75,6 +77,7 @@ function Home() {
         <p
           data-aos="fade-up"
           data-aos-duration="500"
+          data-aos-delay="1500"
           data-aos-once="true"
           className="hover:dark:text-slate-200 hover:text-blue-700"
         >
@@ -90,6 +93,7 @@ function Home() {
       <div
         data-aos="fade-up"
         data-aos-duration="500"
+        data-aos-delay="2000"
         data-aos-once="true"
         className="mb-16"
       >
