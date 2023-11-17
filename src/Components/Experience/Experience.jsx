@@ -30,7 +30,7 @@ function Experience() {
         </h3>
 
         <p className="mb-4">
-          In this role , My team and I have designed a transportation and energy
+          In this role, My team and I have designed a transportation and energy
           carbon reduction strategy system that addresses several questions
           related to electric vehicles in Taiwan: 1. What is the impact of
           switching to electric vehicles on carbon reduction? 2. Can the goal of
@@ -118,15 +118,15 @@ function Experience() {
         </h3>
 
         <p className="mb-4">
-          During my tenure as a graduate student, I had the opportunity to
-          serve as a teaching assistant for the course Energy Systems
-          Engineering and Economics (CIE5143/ ChemE5071). This role not only
-          allowed me to contribute to the academic environment but also enabled
-          me to hone my leadership and communication skills. Taking charge of
-          instructing diverse topics such as machine learning applications in
-          renewable energy, data science in the energy industry, and energy
-          economics, I developed a comprehensive understanding of effectively
-          conveying complex concepts and fostering a collaborative learning
+          During my tenure as a graduate student, I had the opportunity to serve
+          as a teaching assistant for the course Energy Systems Engineering and
+          Economics (CIE5143/ ChemE5071). This role not only allowed me to
+          contribute to the academic environment but also enabled me to hone my
+          leadership and communication skills. Taking charge of instructing
+          diverse topics such as machine learning applications in renewable
+          energy, data science in the energy industry, and energy economics, I
+          developed a comprehensive understanding of effectively conveying
+          complex concepts and fostering a collaborative learning
           environment.energy, data science in the energy industry, and energy
           economics.
         </p>
