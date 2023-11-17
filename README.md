@@ -1,3 +1,3 @@
 # Personal website
 
-built with Javascript, React.js, AOS ,and Tailwindcss. 
+built with Javascript, React.js, Vite.js, AOS ,and Tailwindcss. 
