@@ -10,30 +10,46 @@ function about() {
       </div>
       <div>
         <p className="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          sodales laoreet ex sed aliquet. Fusce consequat velit eget nulla
-          luctus, ac mattis quam suscipit. Vestibulum pharetra sagittis ante,
-          nec eleifend libero semper a. Nam ipsum elit, consequat a maximus
-          eget, cursus vitae libero. Fusce fermentum, tellus at accumsan
-          pulvinar, eros nunc hendrerit nulla, et laoreet neque arcu sit amet
-          purus. Aliquam congue bibendum arcu vel maximus.
+          In 2023, I completed my Master's degree in Computer-Aided Engineering
+          at{" "}
+          <span className="font-bold">
+            <a href="https://www.ntu.edu.tw/" target="_blank" rel="noopener">
+              National Taiwan University
+            </a>
+          </span>
+          , where relevant coursework includes Object-Oriented Programming, Data
+          Structures and Algorithms, Machine Learning, Deep Learning,
+          Computational Statistics Data Analytics, and Decentralized
+          Applications.
         </p>
         <p className="mb-4">
-          Aenean quis metus ut sem fermentum consectetur id at nibh. Etiam
-          pulvinar, diam vitae congue ullamcorper, mi enim ornare lectus, at
-          faucibus est urna quis diam. Pellentesque interdum ligula lorem,
-          egetblandit odio consectetur ut. Aliquam tristique lacus at lectus
-          viverra, nec pulvinar nunc dignissim. In volutpat sit amet mi id
-          volutpat. Cras molestie facilisis nisi, vel consequat libero sagittis
-          imperdiet.
+          During this academic journey, active participation in various
+          competitions and projects with my research lab colleagues led to
+          several paper awards. I also gained valuable experience by publishing
+          papers in both international and domestic journals. After graduating
+          from NTU, I became a research assistant at the{" "}
+          <span>
+            <a
+              className="font-bold"
+              href="https://www.e3group.caece.net/"
+              target="_blank"
+              rel="noopener"
+            >
+              E3 research group
+            </a>
+          </span>
+          . We participated in the 2023 Taiwan Presidential Hackathon, focusing
+          on designing a transportation and energy carbon reduction strategy
+          system, earning us a spot in the finals and an honourable mention.
         </p>
+        <p className="mb-4"></p>
         <p className="mb-4">
-          Mauris hendrerit felis ac sem tempor tristique. Maecenas non lacus et
-          quam auctor condimentum a sit amet magna. Curabitur quis luctus lorem,
-          a accumsan magna. Fusce sodales rhoncus velit id convallis. Duis
-          libero odio, volutpat a tempor vel, tincidunt id diam. Aenean at
-          libero at lorem rhoncus cursus. Donec accumsan mi eget interdum
-          commodo.
+          These cumulative experiences, ranging from academic coursework to
+          research endeavors and practical applications, have not only
+          strengthened my technical proficiency but also cultivated a
+          collaborative and innovative mindset. I am enthusiastic about
+          leveraging this comprehensive background to make meaningful
+          contributions in the realm of software engineering.
         </p>
       </div>
     </div>

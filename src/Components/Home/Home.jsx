@@ -27,7 +27,7 @@ function Home() {
               easing="easeLinear"
               className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
             >
-              about
+              About
             </Link>
           </li>
           <li>
@@ -40,7 +40,7 @@ function Home() {
               easing="easeLinear"
               className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
             >
-              experience
+              Experience
             </Link>
           </li>
           <li>
@@ -53,7 +53,7 @@ function Home() {
               easing="easeLinear"
               className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
             >
-              project
+              Project
             </Link>
           </li>
         </ul>
