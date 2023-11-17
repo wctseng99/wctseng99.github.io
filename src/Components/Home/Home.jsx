@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -7,16 +9,16 @@ import { FaMedium } from "react-icons/fa6";
 function Home() {
   return (
     <div className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
-      <div className="mb-2 flex-col justify-between ">
-        <h1 className="text-4xl md:text-5xl lg:text-4xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
+      <div  className="mb-2 flex-col justify-between">
+        <h1 data-aos="fade-up" data-aos-duration="500" className="text-4xl md:text-5xl lg:text-4xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
           <a href="/">Wei Chun Tseng</a>
         </h1>
 
-        <p className="mt-4 mb-16 md:text-lg max-w-xs font-medium">
+        <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="mt-4 mb-16 md:text-lg max-w-xs font-medium">
           I am passionate about software development and data science.
         </p>
 
-        <ul className="hidden lg:block mb-24">
+        <ul data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000" className="hidden lg:block mb-24">
           <li>
             <Link
               to="about"
@@ -58,7 +60,7 @@ function Home() {
           </li>
         </ul>
 
-        <p className="hover:dark:text-slate-200 hover:text-blue-700">
+        <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="1500" className="hover:dark:text-slate-200 hover:text-blue-700">
           <a
             className="inline-flex items-center font-medium leading-tight tracking-tighter text-base md:text-lg"
             href="mailto: wctseng99@gmail.com"
@@ -68,7 +70,7 @@ function Home() {
           </a>
         </p>
       </div>
-      <div className="mb-16">
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="2000" className="mb-16">
         <ul className="ml-1 mt-8 flex items-center">
           <li className="mr-5 text-2xl">
             <a
