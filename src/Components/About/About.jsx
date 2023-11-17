@@ -12,7 +12,7 @@ function about() {
         <p className="mb-4">
           In 2023, I completed my Master's degree in Computer-Aided Engineering
           at{" "}
-          <span className="font-bold">
+          <span className="font-bold hover:dark:text-slate-200 hover:text-blue-700">
             <a href="https://www.ntu.edu.tw/" target="_blank" rel="noopener">
               National Taiwan University
             </a>
@@ -30,7 +30,7 @@ function about() {
           from NTU, I became a research assistant at the{" "}
           <span>
             <a
-              className="font-bold"
+              className="font-bold hover:dark:text-slate-200 hover:text-blue-700"
               href="https://www.e3group.caece.net/"
               target="_blank"
               rel="noopener"
