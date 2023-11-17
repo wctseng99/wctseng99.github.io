@@ -8,6 +8,7 @@ import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
 import Project from "./Components/Project/Project";
 import ThemeSwitcher from "./Components/ThemeSwitcher/ThemeSwitcher";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -51,6 +52,9 @@ function App() {
                 <Project />
               </div>
             </Element>
+            <div>
+              <Footer />
+            </div>
           </div>
         </div>
       </div>
