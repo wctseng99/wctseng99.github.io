@@ -25,7 +25,7 @@ function Home() {
           data-aos-duration="500"
           data-aos-delay="50"
           data-aos-once="true"
-          className="mt-4 mb-16 md:text-lg max-w-xs font-medium"
+          className="mt-4 mb-20 md:text-lg max-w-xs font-medium"
         >
           I am passionate about software development and data science.
         </p>
@@ -109,7 +109,7 @@ function Home() {
           className="hover:dark:text-slate-200 hover:text-blue-700"
         >
           <a
-            className="inline-flex items-center font-medium leading-tight tracking-tighter text-base md:text-lg"
+            className="inline-flex items-center leading-tight tracking-tighter text-base md:text-lg"
             href="mailto: wctseng99@gmail.com"
           >
             <MdEmail className="mt-0.5 mr-2" />
