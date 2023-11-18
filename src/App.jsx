@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { useInView } from "react-intersection-observer";
 import { Element } from "react-scroll";
-import $ from "jquery";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
@@ -13,13 +13,6 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   useEffect(() => {
-    // var delay = 0;
-    // $("[data-aos]").each(function () {
-    //   if ($(this).is(":visible")) {
-    //     delay = delay + 500;
-    //     $(this).attr("data-aos-delay", delay);
-    //   }
-    // });
     AOS.init();
 
     // Scroll to the top on component mount
@@ -39,18 +32,26 @@ function App() {
               <div
                 data-aos="fade-up"
                 data-aos-duration="500"
-                data-aos-delay="2500"
+                data-aos-delay="250"
               >
                 <About />
               </div>
             </Element>
             <Element name="experience">
-              <div data-aos="fade-up" data-aos-duration="500">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-delay="300"
+              >
                 <Experience />
               </div>
             </Element>
             <Element name="project">
-              <div data-aos="fade-up" data-aos-duration="500">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-delay="300"
+              >
                 <Project />
               </div>
             </Element>
