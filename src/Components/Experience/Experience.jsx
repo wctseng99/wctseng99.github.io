@@ -118,17 +118,14 @@ function Experience() {
         </h3>
 
         <p className="mb-4">
-          During my tenure as a graduate student, I had the opportunity to serve
-          as a teaching assistant for the course Energy Systems Engineering and
-          Economics (CIE5143/ ChemE5071). This role not only allowed me to
-          contribute to the academic environment but also enabled me to hone my
-          leadership and communication skills. Taking charge of instructing
-          diverse topics such as machine learning applications in renewable
-          energy, data science in the energy industry, and energy economics, I
-          developed a comprehensive understanding of effectively conveying
-          complex concepts and fostering a collaborative learning
-          environment.energy, data science in the energy industry, and energy
-          economics.
+          During my graduate studies, I served as a teaching assistant for the
+          course Energy Systems Engineering and Economics (CIE5143/ ChemE5071).
+          In this role, I contributed to the academic environment and honed my
+          leadership and communication skills. Instructing diverse topics such
+          as machine learning applications in renewable energy, data science in
+          the energy industry, and energy economics, I developed a comprehensive
+          understanding of effectively conveying complex concepts and fostering
+          a collaborative learning environment.
         </p>
         <ul className="mt-2 flex flex-wrap">
           <li className="mr-2 mt-2">
