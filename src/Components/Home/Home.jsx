@@ -72,6 +72,11 @@ function Home() {
             >
               Project
             </Link>
+            <div className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700">
+              <a href="/resume.pdf" target="_blank" rel="noopener">
+                Resume
+              </a>
+            </div>
           </li>
         </ul>
 
@@ -139,7 +144,7 @@ function Home() {
               <BsFacebook />
             </a>
           </li>
-          {/* <li className="mr-5 text-2xl">
+          <li className="mr-5 text-2xl">
             <a
               className="block hover:text-blue-700 hover:dark:text-slate-200"
               href="https://www.instagram.com/tseeng10/"
@@ -148,8 +153,8 @@ function Home() {
             >
               <BsInstagram />
             </a>
-          </li> */}
-          <li className="mr-5 text-2xl">
+          </li>
+          {/* <li className="mr-5 text-2xl">
             <a
               className="block hover:text-blue-700 hover:dark:text-slate-200"
               href="/resume.pdf"
@@ -158,7 +163,7 @@ function Home() {
             >
               <IoDocumentText />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
