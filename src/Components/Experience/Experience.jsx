@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 function Experience() {
   return (
-    <div className="mb-16 text-slate-700 dark:text-slate-400">
+    <div className="mb-32 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
         <h2 className="font-serif py-4 text-base font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
           Experience
@@ -111,7 +111,7 @@ function Experience() {
               target="_blank"
               rel="noopener"
             >
-              <span>TA • NTU College of Engineering</span>
+              <span>TA • College of Engineering @ NTU</span>
               <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
             </a>
           </div>
@@ -150,7 +150,7 @@ function Experience() {
           </li>
         </ul>
       </div>
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <h3 className="font-medium mb-2 leading-snug group">
           <div>
             <a
@@ -166,7 +166,7 @@ function Experience() {
             </a>
           </div>
         </h3>
-      </div>
+      </div> */}
     </div>
   );
 }

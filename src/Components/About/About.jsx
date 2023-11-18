@@ -2,7 +2,7 @@ import React from "react";
 
 function about() {
   return (
-    <div className="mb-16 text-slate-700 dark:text-slate-400">
+    <div className="mb-32 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
         <h2 className="font-serif py-4 text-base font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
           About
@@ -12,7 +12,7 @@ function about() {
         <p className="mb-4">
           In 2023, I completed my Master's degree in Computer-Aided Engineering
           at{" "}
-          <span className="font-bold hover:dark:text-slate-200 hover:text-blue-700">
+          <span className="font-semibold dark:text-slate-200 text-blue-700">
             <a href="https://www.ntu.edu.tw/" target="_blank" rel="noopener">
               National Taiwan University
             </a>
@@ -30,7 +30,7 @@ function about() {
           from NTU, I became a research assistant at the{" "}
           <span>
             <a
-              className="font-bold hover:dark:text-slate-200 hover:text-blue-700"
+              className="font-semibold dark:text-slate-200 text-blue-700"
               href="https://www.e3group.caece.net/"
               target="_blank"
               rel="noopener"

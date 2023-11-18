@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
+import { IoDocumentText } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaMedium } from "react-icons/fa6";
 
@@ -138,7 +139,7 @@ function Home() {
               <BsFacebook />
             </a>
           </li>
-          <li className="mr-5 text-2xl">
+          {/* <li className="mr-5 text-2xl">
             <a
               className="block hover:text-blue-700 hover:dark:text-slate-200"
               href="https://www.instagram.com/tseeng10/"
@@ -146,6 +147,16 @@ function Home() {
               rel="noopener"
             >
               <BsInstagram />
+            </a>
+          </li> */}
+          <li className="mr-5 text-2xl">
+            <a
+              className="block hover:text-blue-700 hover:dark:text-slate-200"
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              <IoDocumentText />
             </a>
           </li>
         </ul>

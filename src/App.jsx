@@ -55,7 +55,10 @@ function App() {
                 <Project />
               </div>
             </Element>
-            <div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
               <Footer />
             </div>
           </div>
