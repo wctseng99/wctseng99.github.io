@@ -31,13 +31,18 @@ function Home() {
         </p>
 
         <ul
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="100"
-          data-aos-once="true"
+          // data-aos="fade-up"
+          // data-aos-duration="500"
+          // data-aos-delay="100"
+          // data-aos-once="true"
           className="hidden lg:block mb-24"
         >
-          <li>
+          <li
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="150"
+            data-aos-once="true"
+          >
             <Link
               to="about"
               spy={true}
@@ -49,7 +54,12 @@ function Home() {
               About
             </Link>
           </li>
-          <li>
+          <li
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="200"
+            data-aos-once="true"
+          >
             <Link
               to="experience"
               spy={true}
@@ -61,7 +71,12 @@ function Home() {
               Experience
             </Link>
           </li>
-          <li>
+          <li
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="250"
+            data-aos-once="true"
+          >
             <Link
               to="project"
               spy={true}
@@ -72,7 +87,13 @@ function Home() {
             >
               Project
             </Link>
-            <div className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos-once="true"
+              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+            >
               <a href="/resume.pdf" target="_blank" rel="noopener">
                 Resume
               </a>
@@ -83,7 +104,7 @@ function Home() {
         <p
           data-aos="fade-up"
           data-aos-duration="500"
-          data-aos-delay="150"
+          data-aos-delay="350"
           data-aos-once="true"
           className="hover:dark:text-slate-200 hover:text-blue-700"
         >
@@ -99,7 +120,7 @@ function Home() {
       <div
         data-aos="fade-up"
         data-aos-duration="500"
-        data-aos-delay="200"
+        data-aos-delay="400"
         data-aos-once="true"
         className="mb-16"
       >

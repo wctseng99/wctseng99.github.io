@@ -32,7 +32,7 @@ function App() {
               <div
                 data-aos="fade-up"
                 data-aos-duration="500"
-                data-aos-delay="250"
+                data-aos-delay="300"
               >
                 <About />
               </div>
