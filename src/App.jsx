@@ -32,7 +32,7 @@ function App() {
               <div
                 data-aos="fade-up"
                 data-aos-duration="500"
-                data-aos-delay="300"
+                data-aos-delay="400"
               >
                 <About />
               </div>
@@ -41,7 +41,7 @@ function App() {
               <div
                 data-aos="fade-up"
                 data-aos-duration="500"
-                data-aos-delay="300"
+                data-aos-delay="450"
               >
                 <Experience />
               </div>
@@ -50,7 +50,7 @@ function App() {
               <div
                 data-aos="fade-up"
                 data-aos-duration="500"
-                data-aos-delay="300"
+                data-aos-delay="450"
               >
                 <Project />
               </div>
