@@ -13,7 +13,7 @@ function Experience() {
 
       <div className="mb-12">
         <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
-          AUG 2023 - present
+          AUG 2023 - OCT 2023
         </header>
         <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-sky-300 group">
           <div>
