@@ -29,18 +29,15 @@ function Experience() {
           </div>
         </h3>
 
-        <p className="mb-4">
-          In this role, My team and I have designed a transportation and energy
-          carbon reduction strategy system that addresses several questions
-          related to electric vehicles in Taiwan: 1. What is the impact of
-          switching to electric vehicles on carbon reduction? 2. Can the goal of
-          complete electrification of transportation by 2040 be achieved? 3.
-          Under different policy orientations, what is the annual carbon
-          reduction benefit until 2050? 4. Where should the government allocate
-          transportation subsidies to maximize carbon reduction benefits? Key
-          quantitative and qualitative results have been derived to facilitate
-          government agencies and the public in making informed policy
-          decisions.
+        <p className="mb-4 leading-loose">
+          In this role, my team and I designed a comprehensive strategy system
+          to tackle key questions regarding electric vehicles in Taiwan,
+          including assessing the impact of transitioning to electric vehicles
+          on carbon reduction, Examining the feasibility of achieving complete
+          electrification of transportation by 2040, analyzing annual carbon
+          reduction benefits until 2050 under various policy orientations, and
+          recommending optimal allocation of transportation subsidies for
+          maximum carbon reduction benefits.
         </p>
         <ul className="mt-2 flex flex-wrap">
           <li className="mr-4">
@@ -117,15 +114,14 @@ function Experience() {
           </div>
         </h3>
 
-        <p className="mb-4">
-          During my graduate studies, I served as a teaching assistant for the
-          course Energy Systems Engineering and Economics (CIE5143/ ChemE5071).
-          In this role, I contributed to the academic environment and honed my
-          leadership and communication skills. Instructing diverse topics such
-          as machine learning applications in renewable energy, data science in
-          the energy industry, and energy economics, I developed a comprehensive
-          understanding of effectively conveying complex concepts and fostering
-          a collaborative learning environment.
+        <p className="mb-4 leading-loose">
+          In my graduate studies, I served as a teaching assistant for the
+          Energy Systems Engineering and Economics course (CIE5143/ ChemE5071).
+          This role sharpened my leadership and communication skills. Teaching
+          diverse subjects, including machine learning applications in renewable
+          energy, data science in the energy industry, and energy economics,
+          enabled me to adeptly convey intricate concepts and cultivate a
+          collaborative learning environment.
         </p>
         <ul className="mt-2 flex flex-wrap">
           <li className="mr-2 mt-2">

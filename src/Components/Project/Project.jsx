@@ -26,7 +26,7 @@ function Project() {
           </div>
         </h3>
 
-        <p className="mb-4">
+        <p className="mb-4 leading-loose">
           My first portfolio website, built with React.js, Tailwind CSS, and
           Vite.js.
         </p>
@@ -81,7 +81,7 @@ function Project() {
           </div>
         </h3>
 
-        <p className="mb-4">
+        <p className="mb-4 leading-loose">
           Ａ web app crafted with React.js, Express.js, MongoDB, Node.js, and
           Mapbox API, enables users to effortlessly share their favorite places.
           Clicking a pin reveals the place's details and the user who shared it.
@@ -155,7 +155,7 @@ function Project() {
           </div>
         </h3>
 
-        <p className="mb-4">
+        <p className="mb-4 leading-loose">
           This RWD frontend project, developed with React.js, seamlessly
           integrates GitHub Actions for CI/CD processes.
         </p>
@@ -215,7 +215,7 @@ function Project() {
           </div>
         </h3>
 
-        <p className="mb-4">
+        <p className="mb-4 leading-loose">
           Simon consists of a round plastic device with four large coloured
           buttons: red, blue, green, and yellow. The game has a built-in speaker
           that plays a series of random tones and lights up the corresponding
@@ -268,8 +268,8 @@ function Project() {
           </div>
         </h3>
 
-        <p className="mb-4">
-          For the NTU CACECE summer internship's digital certificate system,
+        <p className="mb-4 leading-loose">
+          For the NTU CAECE summer internship's digital certificate system,
           users can log in using the MetaMask wallet and, after identity
           verification, mint their own blockchain-encrypted digital graduation
           certificates on Polygon.

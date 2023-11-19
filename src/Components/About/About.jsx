@@ -9,7 +9,7 @@ function about() {
         </h2>
       </div>
       <div>
-        <p className="mb-4">
+        <p className="mb-4 leading-loose">
           In 2023, I completed my Master's degree in Computer-Aided Engineering
           at{" "}
           <span className="font-semibold dark:text-slate-200 text-blue-700">
@@ -17,17 +17,13 @@ function about() {
               National Taiwan University
             </a>
           </span>
-          , where relevant coursework includes Object-Oriented Programming, Data
-          Structures and Algorithms, Machine Learning, Deep Learning,
-          Computational Statistics Data Analytics, and Decentralized
-          Applications.
-        </p>
-        <p className="mb-4">
-          During this academic journey, active participation in various
-          competitions and projects with my research lab colleagues led to
-          several paper awards. I also gained valuable experience by publishing
-          papers in both international and domestic journals. After graduating
-          from NTU, I became a research assistant at the{" "}
+          , where I developed a robust foundation in computer science and data
+          science. Throughout my academic journey, I garnered valuable
+          experience through publications in both international and domestic
+          journals.
+        </p>{" "}
+        <p className="mb-4 leading-loose">
+          Following my graduation from NTU, I joined the{" "}
           <span>
             <a
               className="font-semibold dark:text-slate-200 text-blue-700"
@@ -37,19 +33,17 @@ function about() {
             >
               E3 research group
             </a>
-          </span>
-          . We participated in the 2023 Taiwan Presidential Hackathon, focusing
-          on designing a transportation and energy carbon reduction strategy
-          system, earning us a spot in the finals and an honourable mention.
+          </span>{" "}
+          as a research assistant. Engaging in the Taiwan Presidential
+          Hackathon, my focus was on crafting a system for carbon reduction in
+          transportation and energy, earning us a spot in the finals and an
+          honourable mention.
         </p>
-        <p className="mb-4"></p>
-        <p className="mb-4">
-          These cumulative experiences, ranging from academic coursework to
-          research endeavors and practical applications, have not only
-          strengthened my technical proficiency but also cultivated a
-          collaborative and innovative mindset. I am enthusiastic about
-          leveraging this comprehensive background to make meaningful
-          contributions in the realm of software engineering.
+        <p className="mb-4 leading-loose">
+          These diverse experiences have not only enhanced my technical
+          proficiency but also nurtured a collaborative and innovative mindset.
+          I am eager to apply this comprehensive background to make impactful
+          contributions in the field of software engineering.
         </p>
       </div>
     </div>
