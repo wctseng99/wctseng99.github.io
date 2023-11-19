@@ -33,7 +33,7 @@ function Experience() {
           In this role, my team and I designed a comprehensive strategy system
           to tackle key questions regarding electric vehicles in Taiwan,
           including assessing the impact of transitioning to electric vehicles
-          on carbon reduction, Examining the feasibility of achieving complete
+          on carbon reduction, examining the feasibility of achieving complete
           electrification of transportation by 2040, analyzing annual carbon
           reduction benefits until 2050 under various policy orientations, and
           recommending optimal allocation of transportation subsidies for
