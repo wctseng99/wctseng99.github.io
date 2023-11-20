@@ -49,6 +49,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          repo: wctseng99/wctseng99.github.io 
-          user_email: actions@github.com
-          base_dir: dist
