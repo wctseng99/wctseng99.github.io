@@ -85,7 +85,7 @@ function Home() {
               easing="easeLinear"
               className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
             >
-              Project
+              Projects
             </Link>
             <div
               data-aos="fade-up"
