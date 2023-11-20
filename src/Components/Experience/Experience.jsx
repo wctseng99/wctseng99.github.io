@@ -6,7 +6,7 @@ function Experience() {
   return (
     <div className="mb-32 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
-        <h2 className="font-serif py-4 text-base font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
+        <h2 className="font-serif py-4 text-base font-bold tracking-widest text-slate-800 dark:text-slate-300 ">
           Experience
         </h2>
       </div>

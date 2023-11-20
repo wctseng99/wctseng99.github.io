@@ -4,7 +4,7 @@ function about() {
   return (
     <div className="mb-32 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
-        <h2 className="font-serif py-4 text-base font-bold uppercase tracking-widest text-slate-800 dark:text-slate-300 ">
+        <h2 className="font-serif py-4 text-base font-bold tracking-widest text-slate-800 dark:text-slate-300 ">
           About
         </h2>
       </div>
@@ -12,8 +12,13 @@ function about() {
         <p className="mb-4 leading-loose">
           In 2023, I completed my Master's degree in Computer-Aided Engineering
           at{" "}
-          <span className="font-semibold dark:text-slate-200 text-blue-700">
-            <a href="https://www.ntu.edu.tw/" target="_blank" rel="noopener">
+          <span className="font-semibold dark:text-slate-200 text-blue-700 group transition-all duration-300 ease-in-out">
+            <a
+              href="https://www.ntu.edu.tw/"
+              target="_blank"
+              rel="noopener"
+              className="bg-left-bottom bg-gradient-to-r from-blue-700 to-blue-700 dark:from-slate-200 dark:to-slate-200 bg-[length:0%_1.3px] bg-no-repeat group-hover:bg-[length:100%_1.3px] transition-all duration-300 ease-out"
+            >
               National Taiwan University
             </a>
           </span>
@@ -24,12 +29,12 @@ function about() {
         </p>{" "}
         <p className="mb-4 leading-loose">
           Following my graduation from NTU, I joined the{" "}
-          <span>
+          <span className="font-semibold dark:text-slate-200 text-blue-700 group transition-all duration-300 ease-in-out">
             <a
-              className="font-semibold dark:text-slate-200 text-blue-700"
               href="https://www.e3group.caece.net/"
               target="_blank"
               rel="noopener"
+              className="bg-left-bottom bg-gradient-to-r from-blue-700 to-blue-700 dark:from-slate-200 dark:to-slate-200 bg-[length:0%_1.3px] bg-no-repeat group-hover:bg-[length:100%_1.3px] transition-all duration-300 ease-out"
             >
               E3 research group
             </a>
