@@ -9,7 +9,9 @@ import { FaMedium } from "react-icons/fa6";
 
 function Home() {
   return (
-    <div className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
+    <div
+      className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400"
+    >
       <div className="mb-2 flex-col justify-between">
         <h1
           data-aos="fade-up"

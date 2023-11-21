@@ -10,8 +10,7 @@ function Experience() {
           Experience
         </h2>
       </div>
-
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="https://www.e3group.caece.net/" target="_blank" rel="noopener">
           <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
             AUG 2023 - OCT 2023
@@ -94,7 +93,7 @@ function Experience() {
         </a>
       </div>
 
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="http://www.eng.ntu.edu.tw/" target="_blank" rel="noopener">
           <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
             AUG 2022 - FEB 2023

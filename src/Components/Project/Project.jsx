@@ -11,7 +11,7 @@ function Project() {
         </h2>
       </div>
 
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="https://wctseng99.github.io" target="_blank" rel="noopener">
           <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
             <div>
@@ -64,7 +64,7 @@ function Project() {
         </a>
       </div>
 
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a
           href="https://github.com/wctseng99/Mapin"
           target="_blank"
@@ -139,7 +139,7 @@ function Project() {
           </ul>
         </a>
       </div>
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a
           href="https://wctseng99.github.io/travel-website-project/"
           target="_blank"
@@ -200,7 +200,7 @@ function Project() {
           </ul>
         </a>
       </div>
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a
           href="https://wctseng99.github.io/Simon/"
           target="_blank"
@@ -255,7 +255,7 @@ function Project() {
           </ul>
         </a>
       </div>
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="http://cert.caece.net/" target="_blank" rel="noopener">
           <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
             <div>
