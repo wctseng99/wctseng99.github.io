@@ -5,7 +5,6 @@ import { gsap } from "gsap";
 
 const Sphere = () => {
   const pointsRef = useRef();
-  const { viewport } = useThree();
 
 
   const numPoints = 3500;
