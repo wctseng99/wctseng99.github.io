@@ -1,14 +1,11 @@
 import React, { useRef, useEffect } from "react";
-import { useFrame, useThree  } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 import { PointsMaterial, BufferGeometry, Float32BufferAttribute } from "three";
 import { gsap } from "gsap";
 
 const Sphere = () => {
   const pointsRef = useRef();
   const { viewport } = useThree();
-
-  // 根據场景大小計算初始球體大小
-  const initialScale = viewport.width > viewport.height ? 1.0 : 0.8;
 
 
   const numPoints = 3500;
@@ -17,7 +14,7 @@ const Sphere = () => {
   for (let i = 0; i < numPoints; i++) {
     const theta = Math.random() * Math.PI * 2;
     const phi = Math.acos(Math.random() * 2 - 1);
-    const r = initialScale * 1.3;
+    const r = 1.3;
     const x = Math.sin(phi) * Math.cos(theta) * r;
     const y = Math.sin(phi) * Math.sin(theta) * r;
     const z = Math.cos(phi) * r;
