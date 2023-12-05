@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import { Element } from "react-scroll";
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,8 +28,20 @@ function App() {
 
   return (
     <>
-      {showSphere ? ( //bg-zinc-300 
-        <div className="bg-gradient-to-r from-zinc-300 to-zinc-300 h-screen w-screen">
+      {showSphere ? ( // //bg-gradient-to-tr from-zinc-300 from-85% via-[#322b9a] to-[#66126e]
+        <div
+        style={{
+          backgroundColor: "rgb(113, 113, 122)",
+          backgroundImage: `
+            radial-gradient(at 50% 50%, rgb(212, 212, 216) 0, transparent 100%),
+            radial-gradient(at 50% 50%, rgb(226, 232, 240) 0, transparent 80%),
+            radial-gradient(at 50% 50%, rgb(241, 245, 249) 0, transparent 50%)
+          `,
+        }}
+        
+        
+        className="h-screen w-screen"
+        >
           <Canvas
             style={{ position: "absolute" }} // , width: "100vw", height: "100vh"
           >
@@ -39,22 +50,7 @@ function App() {
           <Title onTitleClick={handleTitleClick} />
         </div>
       ) : (
-        <div
-          // onMouseMove={handleMouseMove}
-          className="scroll-smooth font-inter relative px-6 py-24 md:px-24 md:py-32 lg:py-0 lg:px-36 dark:bg-slate-900 bg-zinc-300 selection:bg-sky-200 selection:text-slate-900 dark:selection:bg-sky-200 dark:selection:text-slate-900"
-        >
-          {/* <motion.div
-          className="pointer-events-none absolute -inset-px rounded-xl opacity-0 transition duration-300 group-hover:opacity-100"
-          style={{
-            background: useMotionTemplate`
-          radial-gradient(
-            1000px at ${mouseX}px ${mouseY}px,
-            rgba(93, 93, 146, 0.15),
-            transparent 80%
-          )
-        `,
-          }}
-        /> */}
+        <div className="scroll-smooth font-inter relative px-6 py-24 md:px-24 md:py-32 lg:py-0 lg:px-36 dark:bg-slate-900 bg-zinc-300 selection:bg-sky-200 selection:text-slate-900 dark:selection:bg-sky-200 dark:selection:text-slate-900">
           <div className="absolute top-5 right-4 md:right-10">
             <ThemeSwitcher />
           </div>
