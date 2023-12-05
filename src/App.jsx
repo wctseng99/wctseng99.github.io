@@ -29,19 +29,7 @@ function App() {
   return (
     <>
       {showSphere ? ( // //bg-gradient-to-tr from-zinc-300 from-85% via-[#322b9a] to-[#66126e]
-        <div
-        style={{
-          backgroundColor: "rgb(113, 113, 122)",
-          backgroundImage: `
-            radial-gradient(at 50% 50%, rgb(212, 212, 216) 0, transparent 100%),
-            radial-gradient(at 50% 50%, rgb(226, 232, 240) 0, transparent 80%),
-            radial-gradient(at 50% 50%, rgb(241, 245, 249) 0, transparent 50%)
-          `,
-        }}
-        
-        
-        className="h-screen w-screen"
-        >
+        <div className="bg-zinc-300 h-screen w-screen">
           <Canvas
             style={{ position: "absolute" }} // , width: "100vw", height: "100vh"
           >
