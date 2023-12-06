@@ -41,7 +41,7 @@ function Title({ onTitleClick }) {
                 <p className="font-mono hidden lg:flex text-base ml-1 bg-gradient-to-r from-zinc-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
                   Portfolio
                 </p>
-                <BsPersonVcardFill className="ml-4" />
+                <BsPersonVcardFill className="ml-4 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:mb-6 lg:ml-10">
@@ -55,7 +55,7 @@ function Title({ onTitleClick }) {
                 <p className="font-mono hidden lg:flex text-base ml-1 bg-gradient-to-r from-zinc-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
                   GitHub
                 </p>
-                <BsGithub className="ml-4" />
+                <BsGithub className="ml-4 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:mb-6 lg:ml-10">
@@ -69,7 +69,7 @@ function Title({ onTitleClick }) {
                 <p className="font-mono hidden lg:flex text-base ml-1 bg-gradient-to-r from-zinc-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
                   LinkedIn
                 </p>
-                <BsLinkedin className="ml-4" />
+                <BsLinkedin className="ml-4 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:mb-6 lg:ml-10">
@@ -83,7 +83,7 @@ function Title({ onTitleClick }) {
                 <p className="font-mono hidden lg:flex text-base ml-1 bg-gradient-to-r from-zinc-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
                   Medium
                 </p>
-                <FaMedium className="ml-4" />
+                <FaMedium className="ml-4 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
           </ul>
