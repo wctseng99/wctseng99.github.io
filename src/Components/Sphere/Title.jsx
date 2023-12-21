@@ -100,6 +100,9 @@ function Title({ onTitleClick }) {
             </li>
           </ul>
         </div>
+        <div className="absolute bottom-5 font-mono text-sm">
+          wctseng © 2023
+        </div>
       </div>
     </>
   );
