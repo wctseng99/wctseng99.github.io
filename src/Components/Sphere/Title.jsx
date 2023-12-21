@@ -14,6 +14,7 @@ function Title({ onTitleClick }) {
   return (
     <>
       <div className="flex flex-col items-center justify-center h-screen">
+        <div className="-translate-y-1/2 lg:-translate-y-0">
         <h1
           className="font-bold text-4xl z-20 text-zinc-950 hover:cursor-pointer hover:text-zinc-500"
           onClick={onTitleClick}
@@ -26,8 +27,9 @@ function Title({ onTitleClick }) {
         >
           wctseng99@gmail.com
         </a>
+        </div>
         {/* lg:left-5 top-10 lg:top-1/2 */}
-        <div className="absolute top-10 lg:top-20 lg:-translate-y-1/2">
+        <div className="absolute top-10 lg:top-20">
           {/* lg:flex-col */}
           <ul className="flex items-center lg:items-start justify-center lg:justify-end ">
             <li className="mr-5 text-2xl lg:ml-10">
