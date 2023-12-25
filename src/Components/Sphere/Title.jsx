@@ -16,13 +16,13 @@ function Title({ onTitleClick }) {
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="-translate-y-1/2 lg:-translate-y-0">
           <h1
-            className="font-bold text-4xl z-20 text-zinc-950 hover:cursor-pointer hover:text-blue-700"
+            className="font-bold text-4xl z-20 hover:cursor-pointer bg-gradient-to-bl from-zinc-400 via-zinc-700 to-zinc-800 text-transparent bg-clip-text hover:text-zinc-950"
             onClick={onTitleClick}
           >
             w.c. tseng
           </h1>
           <a
-            className="font-mono mt-1 z-10 font-medium leading-tight tracking-tighter text-zinc-500 hover:text-zinc-950"
+            className="font-mono mt-1 z-10 font-medium leading-tight tracking-tighter bg-gradient-to-bl from-zinc-400 via-zinc-500 to-zinc-600 text-transparent bg-clip-text hover:text-zinc-950"
             href="mailto: wctseng99@gmail.com"
           >
             wctseng99@gmail.com
@@ -34,7 +34,7 @@ function Title({ onTitleClick }) {
           <ul className="flex items-center lg:items-start justify-center lg:justify-end ">
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-600 hover:text-blue-700 flex flex-row items-center group hover:cursor-pointer"
+                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group hover:cursor-pointer"
                 onClick={onTitleClick}
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
@@ -46,7 +46,7 @@ function Title({ onTitleClick }) {
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-600 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
                 href="https://github.com/wctseng99"
                 target="_blank"
                 rel="noopener"
@@ -60,7 +60,7 @@ function Title({ onTitleClick }) {
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-600 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
                 href="https://www.linkedin.com/in/wctseng/"
                 target="_blank"
                 rel="noopener"
@@ -74,7 +74,7 @@ function Title({ onTitleClick }) {
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-600 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
                 href="https://medium.com/@wctseng99"
                 target="_blank"
                 rel="noopener"
@@ -88,7 +88,7 @@ function Title({ onTitleClick }) {
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-600 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener"
