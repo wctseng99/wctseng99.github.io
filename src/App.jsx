@@ -29,7 +29,9 @@ function App() {
   return (
     <>
       {showSphere ? ( // //bg-gradient-to-tr from-zinc-300 from-85% via-[#322b9a] to-[#66126e]
-        <div className="bg-zinc-300 h-screen w-screen">
+        <div
+          className="bg-zinc-300 h-screen w-screen"
+        >
           <Canvas
             style={{ position: "absolute" }} // , width: "100vw", height: "100vh"
           >
