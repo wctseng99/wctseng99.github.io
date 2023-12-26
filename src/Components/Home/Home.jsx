@@ -2,16 +2,14 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
-import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { IoDocumentText } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaMedium } from "react-icons/fa6";
 
 function Home() {
   return (
-    <div
-      className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400"
-    >
+    <div className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
       <div className="mb-2 flex-col justify-between">
         <h1
           data-aos="fade-up"
@@ -102,27 +100,11 @@ function Home() {
             </div>
           </li>
         </ul>
-
-        <p
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="350"
-          data-aos-once="true"
-          className="hover:dark:text-slate-200 hover:text-blue-700"
-        >
-          <a
-            className="inline-flex items-center leading-tight tracking-tighter text-base md:text-lg"
-            href="mailto: wctseng99@gmail.com"
-          >
-            <MdEmail className="mt-0.5 mr-2" />
-            <span>wctseng99@gmail.com</span>
-          </a>
-        </p>
       </div>
       <div
         data-aos="fade-up"
         data-aos-duration="500"
-        data-aos-delay="400"
+        data-aos-delay="350"
         data-aos-once="true"
         className="mb-16"
       >
@@ -160,33 +142,13 @@ function Home() {
           <li className="mr-5 text-2xl">
             <a
               className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="https://www.facebook.com/weijun.tseng/"
+              href="mailto: wctseng99@gmail.com"
               target="_blank"
               rel="noopener"
             >
-              <BsFacebook />
+              <MdEmail />
             </a>
           </li>
-          <li className="mr-5 text-2xl">
-            <a
-              className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="https://www.instagram.com/tseeng10/"
-              target="_blank"
-              rel="noopener"
-            >
-              <BsInstagram />
-            </a>
-          </li>
-          {/* <li className="mr-5 text-2xl">
-            <a
-              className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener"
-            >
-              <IoDocumentText />
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>

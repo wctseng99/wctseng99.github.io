@@ -51,7 +51,7 @@ function App() {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="500"
-                  data-aos-delay="400"
+                  data-aos-delay="350"
                 >
                   <About />
                 </div>
@@ -60,7 +60,7 @@ function App() {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="500"
-                  data-aos-delay="400"
+                  data-aos-delay="350"
                 >
                   <Experience />
                 </div>
@@ -69,7 +69,7 @@ function App() {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="500"
-                  data-aos-delay="400"
+                  data-aos-delay="350"
                 >
                   <Project />
                 </div>

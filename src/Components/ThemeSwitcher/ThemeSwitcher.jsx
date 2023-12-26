@@ -22,19 +22,21 @@ const ThemeSwitcher = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className={`flex items-center w-14 h-8 md:w-20 md:h-10 lg:w-24 lg:h-10 rounded-full transition-all duration-500 ${
-        darkMode ? "bg-slate-300" : "bg-slate-800"
-      } ${
-        darkMode ? "text-slate-900" : "text-slate-200"
-      } `}
+      className={`flex items-center justify-start w-16 h-10 rounded-full transition-all duration-300 ease-in-out ${
+        darkMode ? "bg-blue-700" : "bg-gray-500"
+      }`}
     >
       <div
-        className={`rounded-full py-2 px-2 ${darkMode ? "ml-auto" : "mr-auto"} transition-all`}
+        className={`rounded-full py-1 px-1 m-2 bg-slate-300 ${
+          darkMode
+            ? "translate-x-full transition-all duration-300 ease-in-out"
+            : "translate-x-0 transition-all duration-300 ease-in-out"
+        }`}
       >
         {darkMode ? (
-          <MdLightMode className="md:text-xl lg:text-2xl text-slate-900" />
+          <MdDarkMode className="text-base text-zinc-700" />
         ) : (
-          <MdDarkMode className="md:text-xl lg:text-2xl text-[#eff2f2]" />
+          <MdLightMode className="text-base text-zinc-700" />
         )}
       </div>
     </button>
