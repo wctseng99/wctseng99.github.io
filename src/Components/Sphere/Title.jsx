@@ -13,16 +13,16 @@ import { FaMedium } from "react-icons/fa6";
 function Title({ onTitleClick }) {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center content-center justify-center h-screen">
         <div className="-translate-y-1/2 lg:-translate-y-0">
           <h1
-            className="font-bold text-4xl z-20 hover:cursor-pointer bg-gradient-to-bl from-zinc-400 via-zinc-700 to-zinc-800 text-transparent bg-clip-text hover:text-zinc-950"
+            className="font-bold pb-1 text-4xl z-20 hover:cursor-pointer bg-gradient-to-bl from-zinc-400 via-zinc-700 to-zinc-800 text-transparent bg-clip-text hover:text-zinc-950"
             onClick={onTitleClick}
           >
             w.c. tseng
           </h1>
           <a
-            className="font-mono mt-1 z-10 font-medium leading-tight tracking-tighter bg-gradient-to-bl from-zinc-400 via-zinc-500 to-zinc-600 text-transparent bg-clip-text hover:text-zinc-950"
+            className="font-mono mt-1 z-10 font-medium leading-tight tracking-tighter bg-gradient-to-bl from-zinc-500 via-zinc-600 to-zinc-700 text-transparent bg-clip-text hover:text-zinc-950"
             href="mailto: wctseng99@gmail.com"
           >
             wctseng99@gmail.com
