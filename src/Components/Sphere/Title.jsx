@@ -21,7 +21,7 @@ function Title({ onTitleClick }) {
           >
             w.c. tseng
           </h1>
-          <a className="justify-center" href="mailto: wctseng99@gmail.com">
+          <a className="flex justify-center" href="mailto: wctseng99@gmail.com">
             <p className="font-mono mt-1 z-10 font-medium leading-tight tracking-tighter bg-gradient-to-bl from-zinc-500 via-zinc-600 to-zinc-700 text-transparent bg-clip-text hover:text-zinc-950">
               wctseng99@gmail.com
             </p>
