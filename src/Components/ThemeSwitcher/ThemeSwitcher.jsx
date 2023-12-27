@@ -22,15 +22,15 @@ const ThemeSwitcher = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className={`flex items-center justify-start w-16 h-10 rounded-full transition-all duration-300 ease-in-out ${
+      className={`flex items-center w-16 h-8 lg:w-20 lg:h-10 rounded-full transition-all duration-300 ease-in-out ${
         darkMode ? "bg-blue-700" : "bg-gray-500"
       }`}
     >
       <div
-        className={`rounded-full py-1 px-1 m-2 bg-slate-300 ${
+        className={`rounded-full absolute p-1 lg:p-2 bg-slate-300 ${
           darkMode
-            ? "translate-x-full transition-all duration-300 ease-in-out"
-            : "translate-x-0 transition-all duration-300 ease-in-out"
+            ? "translate-x-[2.25rem] lg:translate-x-[2.75rem] transition-all duration-300 ease-in-out"
+            : "translate-x-[0.25rem] lg:translate-x-[0.25rem] transition-all duration-300 ease-in-out"
         }`}
       >
         {darkMode ? (
