@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
@@ -8,6 +8,11 @@ import { MdEmail } from "react-icons/md";
 import { FaMedium } from "react-icons/fa6";
 
 function Home() {
+  
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
       <div className="mb-2 flex-col justify-between">
@@ -17,7 +22,7 @@ function Home() {
           data-aos-once="true"
           className="text-4xl md:text-5xl lg:text-4xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12"
         >
-          <a href="/">Wei Chun Tseng</a>
+          <a href="/portfolio">Wei Chun Tseng</a>
         </h1>
 
         <p
