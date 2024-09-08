@@ -1,13 +1,8 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useNavigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import Sphere from "./Components/Sphere/Sphere";
 import Title from "./Components/Title/Title";
-import Portfolio from "./Components/Portfolio/Portfolio"; // Portfolio page
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
   return (
