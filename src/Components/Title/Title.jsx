@@ -23,7 +23,7 @@ function Title({ onTitleClick }) {
       <div className="flex flex-col items-center content-center justify-center h-screen">
         <div className="-translate-y-1/2 lg:-translate-y-0">
           <a href="/">
-            <h1 className="font-bold font-mono pb-1 text-2xl z-20 hover:cursor-pointer text-transparent bg-clip-text text-blue-800 hover:text-blue-600">
+            <h1 className="font-bold font-mono pb-1 text-2xl z-20 hover:cursor-pointer bg-clip-text text-blue-800 hover:text-blue-600">
               WEI CHUN TSENG
             </h1>
           </a>
