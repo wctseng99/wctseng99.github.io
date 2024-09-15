@@ -15,7 +15,7 @@ function Experience() {
           <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
             AUG 2023 - OCT 2023
           </header>
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>RA • E3 Research Group @ NTU</span>
@@ -60,32 +60,32 @@ function Experience() {
           </ul>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Python
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Data Science
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Game theory
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Computational Statistics
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Git
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 GitHub
               </div>
             </li>
@@ -98,7 +98,7 @@ function Experience() {
           <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
             AUG 2022 - FEB 2023
           </header>
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>TA • College of Engineering @ NTU</span>
@@ -119,22 +119,22 @@ function Experience() {
           </p>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Python
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Machine Learning
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Time Series Forecasting
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Economics
               </div>
             </li>

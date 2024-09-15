@@ -13,7 +13,7 @@ function Project() {
 
       <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="https://wctseng99.github.io" target="_blank" rel="noopener">
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>Personal Website</span>
@@ -41,22 +41,22 @@ function Project() {
           </ul>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 JavaScript
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 React.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Tailwind CSS
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 GitHub Actions
               </div>
             </li>
@@ -70,7 +70,7 @@ function Project() {
           target="_blank"
           rel="noopener"
         >
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>Mapin - the Full Stack Project</span>
@@ -102,37 +102,37 @@ function Project() {
           </ul>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 JavaScript
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 React.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Node.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Express.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 MongoDB
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Axios
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Mapbox API
               </div>
             </li>
@@ -145,7 +145,7 @@ function Project() {
           target="_blank"
           rel="noopener"
         >
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>MulTrip - the Front End Project</span>
@@ -173,27 +173,27 @@ function Project() {
           </ul>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 JavaScript
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 React.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Vite.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 SCSS
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 GitHub Actionss
               </div>
             </li>
@@ -206,7 +206,7 @@ function Project() {
           target="_blank"
           rel="noopener"
         >
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>Simon - the Web Memory Game</span>
@@ -238,17 +238,17 @@ function Project() {
           </ul>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 JavaScript
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 CSS
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 HTML
               </div>
             </li>
@@ -257,7 +257,7 @@ function Project() {
       </div>
       <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="http://cert.caece.net/" target="_blank" rel="noopener">
-          <h3 className="font-medium mb-2 leading-snug text-slate-800 dark:text-slate-200 group-hover:text-blue-700 dark:group-hover:text-sky-300">
+          <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
             <div>
               <div className="inline-flex items-center font-medium leading-tight text-base">
                 <span>NTU CAECE NFT Certificate System</span>
@@ -287,27 +287,27 @@ function Project() {
           </ul>
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Blockchain
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Solidity
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Smart Contract
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 React.js
               </div>
             </li>
             <li className="mr-2 mt-2">
-              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-sky-300 text-xs font-medium leading-5">
+              <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-sky-950 dark:text-cyan-400 text-xs font-medium leading-5">
                 Linux
               </div>
             </li>
