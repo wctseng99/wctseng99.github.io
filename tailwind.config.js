@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
         dm: ['DM Serif Display', 'serif'],
       },
     },

@@ -13,147 +13,120 @@ function Home() {
   }, []);
 
   return (
-    <div className="font-serif relative lg:sticky w-full lg:w-1/2 lg:top-0 lg:max-h-screen lg:py-32 lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
-      <div className="mb-2 flex-col justify-between">
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-once="true"
-          className="text-4xl md:text-5xl lg:text-4xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12"
-        >
-          <a href="/portfolio">Wei Chun Tseng</a>
+    <div className="relative lg:sticky w-full lg:top-20 lg:max-h-screen lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
+      <div
+        className="mb-2 flex-col items-start justify-between"
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
+        <img
+          src="/public/jimtseng.jpg"
+          alt="Jim Tseng"
+          className="mb-8 w-44 h-44 rounded-full border border-slate-300 dark:border-slate-800 object-cover"
+        />
+        <h1 className="text-4xl md:text-5xl lg:text-5xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
+          <a href="/portfolio">Jim Tseng</a>
         </h1>
-
-        <p
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="50"
-          data-aos-once="true"
-          className="mt-4 mb-20 md:text-lg max-w-xs font-medium"
-        >
-          I am passionate about software development and data science.
+        <p className="mt-4 mb-14 md:text-lg max-w-xs">
+          <div className="mb-4 font-bold">Software Engineer</div>
+          <div>I am passionate about software development and data</div>
+          science.
         </p>
 
-        <ul
-          // data-aos="fade-up"
-          // data-aos-duration="500"
-          // data-aos-delay="100"
-          // data-aos-once="true"
-          className="hidden lg:block mb-24"
-        >
-          <li
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="150"
-            data-aos-once="true"
-          >
+        {/* <ul className="hidden lg:block mb-24">
+          <li>
             <Link
               to="about"
               spy={true}
-              offset={-128}
               isDynamic={true}
               easing="easeLinear"
-              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+              className="group flex items-center cursor-pointer hover:dark:text-slate-200 hover:text-blue-700"
+              activeClass="dark:text-slate-200 text-blue-700 nav-active"
             >
-              About
+              <span className="bg-current h-px w-10 transition-all duration-300 group-[.nav-active]:w-20"></span>
+              <span className="ml-2">About</span>
             </Link>
           </li>
-          <li
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="200"
-            data-aos-once="true"
-          >
+          <li>
             <Link
               to="experience"
               spy={true}
-              offset={-50}
               isDynamic={true}
               easing="easeLinear"
-              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+              className="group flex items-center cursor-pointer hover:dark:text-slate-200 hover:text-blue-700"
+              activeClass="dark:text-slate-200 text-blue-700 nav-active"
             >
-              Experience
+              <span className="bg-current h-px w-10 transition-all duration-300 group-[.nav-active]:w-20"></span>
+              <span className="ml-2">Experience</span>
             </Link>
           </li>
-          <li
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="250"
-            data-aos-once="true"
-          >
+          <li>
             <Link
               to="project"
               spy={true}
-              offset={-50}
               isDynamic={true}
               easing="easeLinear"
-              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+              className="group flex items-center cursor-pointer hover:dark:text-slate-200 hover:text-blue-700"
+              activeClass="dark:text-slate-200 text-blue-700 nav-active"
             >
-              Projects
+              <span className="bg-current h-px w-10 transition-all duration-300 group-[.nav-active]:w-20"></span>
+              <span className="ml-2">Projects</span>
             </Link>
             <div
-              data-aos="fade-up"
-              data-aos-duration="500"
-              data-aos-delay="300"
-              data-aos-once="true"
-              className="cursor-pointer font-bold hover:dark:text-slate-200 hover:text-blue-700"
+              className="cursor-pointer hover:dark:text-slate-200 hover:text-blue-700"
+              activeClass="dark:text-slate-200 text-blue-700"
             >
               <a href="/resume.pdf" target="_blank" rel="noopener">
                 Resume
               </a>
             </div>
           </li>
-        </ul>
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="500"
-        data-aos-delay="350"
-        data-aos-once="true"
-        className="mb-16"
-      >
-        <ul className="ml-1 mt-8 flex items-center">
-          <li className="mr-5 text-2xl">
-            <a
-              className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="https://github.com/wctseng99"
-              target="_blank"
-              rel="noopener"
-            >
-              <BsGithub />
-            </a>
-          </li>
-          <li className="mr-5 text-2xl">
-            <a
-              className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="https://www.linkedin.com/in/wctseng/"
-              target="_blank"
-              rel="noopener"
-            >
-              <BsLinkedin />
-            </a>
-          </li>
-          <li className="mr-5 text-2xl">
-            <a
-              className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="https://medium.com/@wctseng99"
-              target="_blank"
-              rel="noopener"
-            >
-              <FaMedium />
-            </a>
-          </li>
-          <li className="mr-5 text-2xl">
-            <a
-              className="block hover:text-blue-700 hover:dark:text-slate-200"
-              href="mailto: wctseng99@gmail.com"
-              target="_blank"
-              rel="noopener"
-            >
-              <MdEmail />
-            </a>
-          </li>
-        </ul>
+        </ul> */}
+        <div className="mb-16">
+          <ul className="ml-1 mt-8 flex items-center">
+            <li className="mr-5 text-2xl">
+              <a
+                className="block hover:text-blue-700 hover:dark:text-slate-200"
+                href="https://github.com/wctseng99"
+                target="_blank"
+                rel="noopener"
+              >
+                <BsGithub />
+              </a>
+            </li>
+            <li className="mr-5 text-2xl">
+              <a
+                className="block hover:text-blue-700 hover:dark:text-slate-200"
+                href="https://www.linkedin.com/in/wctseng/"
+                target="_blank"
+                rel="noopener"
+              >
+                <BsLinkedin />
+              </a>
+            </li>
+            <li className="mr-5 text-2xl">
+              <a
+                className="block hover:text-blue-700 hover:dark:text-slate-200"
+                href="https://medium.com/@wctseng99"
+                target="_blank"
+                rel="noopener"
+              >
+                <FaMedium />
+              </a>
+            </li>
+            <li className="mr-5 text-2xl">
+              <a
+                className="block hover:text-blue-700 hover:dark:text-slate-200"
+                href="mailto: wctseng99@gmail.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <MdEmail />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
