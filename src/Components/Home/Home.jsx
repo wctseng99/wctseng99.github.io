@@ -21,7 +21,7 @@ function Home() {
         data-aos-once="true"
       >
         <img
-          src="/public/jimtseng.jpg"
+          src="/jimtseng.jpg"
           alt="Jim Tseng"
           className="mb-8 w-44 h-44 rounded-full border border-slate-300 dark:border-slate-800 object-cover"
         />
