@@ -11,7 +11,7 @@ import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 const Portfolio = () => {
   return (
     <>
-      <div className="hidden font-inter lg:flex lg:fixed lg:top-1/2 lg:left-12 lg:items-center lg:z-10 lg:transform lg:-translate-y-1/2 lg:-translate-x-1/2 lg:rotate-90">
+      <div className="hidden font-inter text-slate-800 dark:text-slate-400 lg:flex lg:fixed lg:top-1/2 lg:left-12 lg:items-center lg:z-10 lg:transform lg:-translate-y-1/2 lg:-translate-x-1/2 lg:rotate-90">
         <ul className="origin-center flex flex-row space-x-6">
           <li>
             <Link
@@ -22,7 +22,7 @@ const Portfolio = () => {
               isDynamic={true}
               offset={-50}
               className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
-              activeClass="text-blue-700 nav-active"
+              activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
               <span className="transform -rotate-90">About</span>
             </Link>
@@ -36,7 +36,7 @@ const Portfolio = () => {
               isDynamic={true}
               offset={-50}
               className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
-              activeClass="text-blue-700 nav-active"
+              activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
               <span className="transform -rotate-90">Experience</span>
             </Link>
@@ -50,7 +50,7 @@ const Portfolio = () => {
               isDynamic={true}
               offset={-50}
               className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
-              activeClass="text-blue-700 nav-active"
+              activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
               <span className="transform -rotate-90">Projects</span>
             </Link>
