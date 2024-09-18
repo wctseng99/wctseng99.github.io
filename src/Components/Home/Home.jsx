@@ -25,13 +25,16 @@ function Home() {
           alt="Jim Tseng"
           className="mb-8 w-44 h-44 rounded-full border border-slate-300 dark:border-slate-800 object-cover"
         />
-        <h1 className="text-4xl md:text-5xl lg:text-5xl lg:pb-2 lg:pt-2 font-bold tracking-tight text-slate-800 dark:text-slate-200 mb-12">
+        <h1 className="text-4xl md:text-5xl lg:text-5xl lg:pb-2 lg:pt-2 font-bold text-slate-800 dark:text-slate-200 mb-12 tracking-[-1px]">
           <a href="/portfolio">Jim Tseng</a>
         </h1>
         <p className="mt-4 mb-14 md:text-lg max-w-xs">
-          <div className="mb-4 font-bold">Software Engineer</div>
-          <div>I am passionate about software development and data</div>
-          science.
+          <div className="mb-4 tracking-[-1px] text-slate-600 dark:text-slate-400">
+            Software Engineer
+          </div>
+          <div className="tracking-[-1px] text-slate-600 dark:text-slate-400">
+            I am passionate about software development and data science.
+          </div>
         </p>
 
         {/* <ul className="hidden lg:block mb-24">
