@@ -11,7 +11,7 @@ import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 const Portfolio = () => {
   return (
     <>
-      <div className="hidden font-inter text-slate-800 dark:text-slate-400 lg:flex lg:fixed lg:top-1/2 lg:left-12 lg:items-center lg:z-10 lg:transform lg:-translate-y-1/2 lg:-translate-x-1/2 lg:rotate-90">
+      <div className="hidden text-slate-800 dark:text-slate-400 lg:flex lg:fixed lg:top-1/2 lg:left-12 lg:items-center lg:z-10 lg:transform lg:-translate-y-1/2 lg:-translate-x-1/2 lg:rotate-90">
         <ul className="origin-center flex flex-row space-x-6">
           <li>
             <Link
