@@ -7,6 +7,7 @@ import Experience from "../Experience/Experience";
 import Project from "../Project/Project";
 import Footer from "../Footer/Footer";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
+import { BsArrowUpRight, BsFileText } from "react-icons/bs";
 
 const Portfolio = () => {
   return (
@@ -21,10 +22,10 @@ const Portfolio = () => {
               duration={500}
               isDynamic={true}
               offset={-50}
-              className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
+              className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200 flex"
               activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
-              <span className="transform -rotate-90">About</span>
+              <span>About</span>
             </Link>
           </li>
           <li>
@@ -35,10 +36,10 @@ const Portfolio = () => {
               duration={200}
               isDynamic={true}
               offset={-50}
-              className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
+              className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200 flex"
               activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
-              <span className="transform -rotate-90">Experience</span>
+              <span>Experience</span>
             </Link>
           </li>
           <li>
@@ -49,20 +50,19 @@ const Portfolio = () => {
               duration={500}
               isDynamic={true}
               offset={-50}
-              className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
+              className="group cursor-pointer hover:text-blue-700 hover:dark:text-slate-200 flex"
               activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
-              <span className="transform -rotate-90">Projects</span>
+              <span>Projects</span>
             </Link>
           </li>
           <li>
             <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer hover:text-blue-700 hover:dark:text-slate-200"
+              href="/"
+              className="cursor-pointer hover:text-blue-700 hover:dark:text-slate-200 flex group"
             >
-              <span className="transform -rotate-90">Resume</span>
+              <span className="">Home</span>
+              <BsArrowUpRight className="mt-2 ml-1 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:-translate-y-1" />
             </a>
           </li>
         </ul>
@@ -104,6 +104,16 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-blue-700 text-white p-4 rounded-full shadow-lg hover:bg-blue-500 transition-colors duration-200 ease-in-out"
+        aria-label="Resume"
+      >
+        <BsFileText className="text-2xl" />
+      </a>
     </>
   );
 };
