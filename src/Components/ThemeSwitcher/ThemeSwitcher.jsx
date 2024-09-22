@@ -24,8 +24,8 @@ const ThemeSwitcher = () => {
       onClick={toggleDarkMode}
       className={`flex items-center w-16 h-8 lg:w-20 lg:h-10 rounded-full transition-all duration-300 ease-in-out ${
         darkMode
-          ? "bg-gradient-to-bl from-blue-600 to-emerald-400"
-          : "bg-gradient-to-bl from-blue-600 to-emerald-400"
+          ? "bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600"
+          : "bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600"
       }`}
     >
       <div

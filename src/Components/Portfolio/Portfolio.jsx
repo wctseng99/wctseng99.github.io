@@ -105,15 +105,22 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <a
-        href="/resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-blue-700 text-white p-4 rounded-full shadow-lg hover:bg-blue-500 transition-colors duration-200 ease-in-out"
-        aria-label="Resume"
-      >
-        <BsFileText className="text-2xl" />
-      </a>
+      <div className="fixed bottom-6 right-6 flex items-center space-x-2 group">
+        <div className="opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <span className="bg-gray-800 text-slate-300 dark:bg-slate-300 dark:text-gray-800 rounded px-2 py-1 text-sm">
+            Resume
+          </span>
+        </div>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-slate-300 p-4 rounded-full shadow-lg bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600 transition-colors duration-200 ease-in-out"
+          aria-label="Resume"
+        >
+          <BsFileText className="text-2xl" />
+        </a>
+      </div>
     </>
   );
 };
