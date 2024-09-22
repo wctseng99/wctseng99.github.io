@@ -2,7 +2,7 @@ import React from "react";
 
 function about() {
   return (
-    <div className="mb-32 text-slate-700 dark:text-slate-400">
+    <div className="mb-24 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
         <h2 className="py-4 text-2xl text-slate-800 dark:text-slate-300 ">
           About
