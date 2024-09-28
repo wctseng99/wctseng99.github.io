@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        sans: ['Montserrat', 'Optimistic Text', 'Helvetica', 'Arial', 'Noto Sans', 'sans-serif'],
       },
     },
   },
