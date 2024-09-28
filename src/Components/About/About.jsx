@@ -12,12 +12,12 @@ function about() {
         <p className="mb-4 leading-loose">
           In 2023, I completed my Master's degree in Computer-Aided Engineering
           at{" "}
-          <span className="font-semibold dark:text-cyan-300 text-blue-700 z-10 transition-all duration-300 ease-in-out">
+          <span className="font-semibold text-slate-800 dark:text-slate-200 z-10 transition-all duration-300 ease-in-out">
             <a
               href="https://www.ntu.edu.tw/"
               target="_blank"
               rel="noopener"
-              className="bg-left-bottom bg-gradient-to-r from-blue-700 to-blue-700 dark:from-cyan-300 dark:to-cyan-300 bg-[length:0%_1.3px] bg-no-repeat hover:bg-[length:100%_1.3px] transition-all duration-300 ease-out"
+              className="hover-underline-animation left"
             >
               National Taiwan University
             </a>
@@ -29,12 +29,12 @@ function about() {
         </p>{" "}
         <p className="mb-4 leading-loose">
           Following my graduation from NTU, I joined the{" "}
-          <span className="font-semibold dark:text-cyan-300 text-blue-700 transition-all duration-300 ease-in-out">
+          <span className="font-semibold text-slate-800 dark:text-slate-200 transition-all duration-300 ease-in-out">
             <a
               href="https://www.e3group.caece.net/"
               target="_blank"
               rel="noopener"
-              className="bg-left-bottom bg-gradient-to-r from-blue-700 to-blue-700 dark:from-cyan-300 dark:to-cyan-300 bg-[length:0%_1.3px] bg-no-repeat hover:bg-[length:100%_1.3px] transition-all duration-300 ease-out"
+              className="hover-underline-animation left"
             >
               E3 research group
             </a>
