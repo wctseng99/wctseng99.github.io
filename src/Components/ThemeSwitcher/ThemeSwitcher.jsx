@@ -22,23 +22,25 @@ const ThemeSwitcher = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className={`flex items-center w-16 h-8 lg:w-20 lg:h-10 rounded-full transition-all duration-300 ease-in-out ${
+      className={`flex items-center w-16 h-8 lg:w-20 lg:h-10 border-2 rounded-full transition-all duration-300 ease-in-out group ${
         darkMode
-          ? "bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600"
-          : "bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600"
+          ? "border-slate-500 hover:border-slate-200"
+          : "border-slate-500 hover:border-blue-600"
+        // ? "bg-gradient-to-bl from-blue-600 via-sky-500 to-cyan-400"
+        // : "bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600"
       }`}
     >
       <div
-        className={`rounded-full absolute p-1 lg:p-2 bg-slate-300 ${
+        className={`rounded-full absolute p-1 lg:p-2 ${
           darkMode
-            ? "translate-x-[2.25rem] lg:translate-x-[2.75rem] transition-all duration-300 ease-in-out"
-            : "translate-x-[0.25rem] lg:translate-x-[0.25rem] transition-all duration-300 ease-in-out"
+            ? "bg-slate-500 group-hover:bg-slate-200 translate-x-[2.1rem] lg:translate-x-[2.6rem] transition-all duration-300 ease-in-out"
+            : "bg-slate-500 group-hover:bg-blue-600 translate-x-[0.1rem] lg:translate-x-[0.1rem] transition-all duration-300 ease-in-out"
         }`}
       >
         {darkMode ? (
-          <MdDarkMode className="text-base text-zinc-700" />
+          <MdDarkMode className="text-base text-slate-700" />
         ) : (
-          <MdLightMode className="text-base text-zinc-700" />
+          <MdLightMode className="text-base text-slate-200" />
         )}
       </div>
     </button>

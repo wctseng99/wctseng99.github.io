@@ -115,7 +115,7 @@ const Portfolio = () => {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-slate-300 p-4 rounded-full shadow-lg bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600 transition-colors duration-200 ease-in-out"
+          className="text-slate-300 p-4 rounded-full shadow-lg bg-blue-600 hover:bg-blue-500"
           aria-label="Resume"
         >
           <BsFileText className="text-2xl" />
