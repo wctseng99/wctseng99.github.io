@@ -23,13 +23,13 @@ function Title({ onTitleClick }) {
       <div className="flex flex-col items-center content-center justify-center h-screen">
         <div className="-translate-y-1/2 lg:-translate-y-0">
           <a href="/">
-            <h1 className="font-bold font-sans pb-1 text-2xl z-20 hover:cursor-pointer bg-clip-text text-blue-800 hover:text-blue-600">
+            <h1 className="font-bold font-sans pb-1 text-2xl z-20 hover:cursor-pointer bg-clip-text text-blue-700 hover:text-blue-600">
               WEI CHUN TSENG
             </h1>
           </a>
-          <a className="flex justify-center" href="mailto: wctseng99@gmail.com">
-            <p className="font-sans mt-1 z-10 font-medium leading-tight tracking-tighter bg-gradient-to-bl from-zinc-500 via-zinc-600 to-zinc-700 text-transparent bg-clip-text hover:text-blue-700">
-              wctseng99@gmail.com
+          <a className="flex justify-center" href="/">
+            <p className="font-sans mt-1 z-10 font-medium leading-tight tracking-tighter text-blue-700 hover:text-blue-600 ">
+              ( JIM TSENG )
             </p>
           </a>
         </div>
@@ -39,76 +39,83 @@ function Title({ onTitleClick }) {
           <ul className="flex items-center lg:items-start justify-center lg:justify-end ">
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group hover:cursor-pointer"
+                className="text-zinc-900 flex flex-row items-center group hover:cursor-pointer"
                 onClick={handlePortfolioClick}
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
+                <p className="font-sans hidden lg:flex text-base ml-1 group-hover:underline decoration-blue-600">
                   Portfolio
                 </p>
-                <IoFolderOpenSharp className="ml-4 group-hover:-translate-y-1 transition-all" />
+                <IoFolderOpenSharp className="ml-4 group-hover:text-blue-700 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 flex flex-row items-center group"
                 href="https://github.com/wctseng99"
                 target="_blank"
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
+                <p className="font-sans hidden lg:flex text-base ml-1 group-hover:underline decoration-blue-600">
                   GitHub
                 </p>
-                <BsGithub className="ml-4 group-hover:-translate-y-1 transition-all" />
+                <BsGithub className="ml-4 group-hover:text-blue-700 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 flex flex-row items-center group"
                 href="https://www.linkedin.com/in/wctseng/"
                 target="_blank"
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
+                <p className="font-sans hidden lg:flex text-base ml-1 group-hover:underline decoration-blue-600">
                   LinkedIn
                 </p>
-                <BsLinkedin className="ml-4 group-hover:-translate-y-1 transition-all" />
+                <BsLinkedin className="ml-4 text-xl group-hover:text-blue-600 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900  flex flex-row items-center group"
                 href="https://medium.com/@wctseng99"
                 target="_blank"
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
+                <p className="font-sans hidden lg:flex text-base ml-1 group-hover:underline decoration-blue-600">
                   Medium
                 </p>
-                <FaMedium className="ml-4 group-hover:-translate-y-1 transition-all" />
+                <FaMedium className="ml-4 group-hover:text-blue-600 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
             <li className="mr-5 text-2xl lg:ml-10">
               <a
-                className="text-zinc-900 hover:text-blue-700 flex flex-row items-center group"
+                className="text-zinc-900 flex flex-row items-center group"
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
+                <p className="font-sans hidden lg:flex text-base ml-1 group-hover:underline decoration-blue-600">
                   Resume
                 </p>
-                <BsPersonVcardFill className="ml-4 group-hover:-translate-y-1 transition-all" />
+                <BsPersonVcardFill className="ml-4 group-hover:text-blue-600 group-hover:-translate-y-1 transition-all" />
               </a>
             </li>
           </ul>
         </div>
         <div className="absolute bottom-5 font-sans text-sm">
-          wctseng © 2024
+          <a
+            className="me-5 hover-underline-animation left bottom-0"
+            href="mailto: wctseng99@gmail.com"
+          >
+            wctseng99@gmail.com
+          </a>
+          <span className="me-5">|</span>
+          <span className="me-5">©2024 Jim Tseng.</span>
         </div>
       </div>
     </>
