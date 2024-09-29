@@ -43,7 +43,7 @@ function Title({ onTitleClick }) {
                 onClick={handlePortfolioClick}
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 bg-gradient-to-r from-blue-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
+                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
                   Portfolio
                 </p>
                 <IoFolderOpenSharp className="ml-4 group-hover:-translate-y-1 transition-all" />
@@ -57,7 +57,7 @@ function Title({ onTitleClick }) {
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 bg-gradient-to-r from-blue-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
+                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
                   GitHub
                 </p>
                 <BsGithub className="ml-4 group-hover:-translate-y-1 transition-all" />
@@ -71,7 +71,7 @@ function Title({ onTitleClick }) {
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 bg-gradient-to-r from-blue-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
+                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
                   LinkedIn
                 </p>
                 <BsLinkedin className="ml-4 group-hover:-translate-y-1 transition-all" />
@@ -85,7 +85,7 @@ function Title({ onTitleClick }) {
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 bg-gradient-to-r from-blue-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
+                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
                   Medium
                 </p>
                 <FaMedium className="ml-4 group-hover:-translate-y-1 transition-all" />
@@ -99,7 +99,7 @@ function Title({ onTitleClick }) {
                 rel="noopener"
               >
                 {/* <div className="hidden lg:flex border border-t-0 group-hover:border-t border-zinc-500 group-hover:border-zinc-600 w-8 group-hover:w-16 transition-all"></div> */}
-                <p className="font-sans hidden lg:flex text-base ml-1 bg-gradient-to-r from-blue-700 to-zinc-300 bg-left-bottom group-hover:font-semibold bg-[length:0%_2.0px] bg-no-repeat group-hover:bg-[length:100%_2.0px] transition-all duration-200 ease-out">
+                <p className="font-sans hidden lg:flex text-base ml-1 hover-underline-animation left bottom-0">
                   Resume
                 </p>
                 <BsPersonVcardFill className="ml-4 group-hover:-translate-y-1 transition-all" />
