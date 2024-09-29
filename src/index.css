@@ -23,7 +23,12 @@ html {
     transform-origin: bottom left;
   }
 
-  /* Dark mode underline */
+  /* Class to adjust underline position to 0rem */
+  .bottom-0::after {
+    bottom: 0;
+  }
+
+  /* Dark cmode underline */
   .dark .hover-underline-animation::after {
     background-color: #7dd3fc;
   }

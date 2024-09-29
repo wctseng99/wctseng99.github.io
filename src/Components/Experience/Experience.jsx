@@ -10,7 +10,7 @@ function Experience() {
           Experience
         </h2>
       </div>
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="https://www.e3group.caece.net/" target="_blank" rel="noopener">
           <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
             AUG 2023 - OCT 2023
@@ -37,24 +37,28 @@ function Experience() {
           <ul className="mt-2 flex flex-wrap">
             <li className="mr-4">
               <a
-                className="mt-2 inline-flex items-center text-sm font-medium hover:text-blue-700 dark:hover:text-slate-200"
+                className="mt-2 inline-flex items-center text-sm font-medium"
                 href="https://github.com/wctseng99/emission-intensity-tw"
                 target="_blank"
                 rel="noopener"
               >
                 <BsLink45Deg className="mr-1.5" />
-                <span>Emission Intensity</span>
+                <span className="hover-underline-animation left bottom-0">
+                  Emission Intensity
+                </span>
               </a>
             </li>
             <li className="mr-4">
               <a
-                className="mt-2 inline-flex items-center text-sm font-medium hover:text-blue-700 dark:hover:text-slate-200"
+                className="mt-2 inline-flex items-center text-sm font-medium"
                 href="https://github.com/wctseng99/presidential-cup-hackathon-2023"
                 target="_blank"
                 rel="noopener"
               >
                 <BsLink45Deg className="mr-1.5" />
-                <span>AI Net Zero Think Tank</span>
+                <span className="hover-underline-animation left bottom-0">
+                  AI Net Zero Think Tank
+                </span>
               </a>
             </li>
           </ul>
@@ -93,7 +97,7 @@ function Experience() {
         </a>
       </div>
 
-      <div className="mb-12 lg:hover:bg-gray-200/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+      <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <a href="http://www.eng.ntu.edu.tw/" target="_blank" rel="noopener">
           <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
             AUG 2022 - FEB 2023
