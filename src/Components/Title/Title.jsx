@@ -48,7 +48,7 @@ function Title({ onTitleClick }) {
           </button>
 
           {isSideMenuOpen && (
-            <div className="absolute inset-0 bg-white h-screen flex flex-col">
+            <div className="absolute inset-0 bg-white flex flex-col h-dvh">
               <div className="flex items-center justify-between w-full border-b border-slate-300">
                 <p className="text-2xl font-medium text-center flex-grow py-4 text-slate-700">
                   <span className="text-blue-600 pe-2">Jim</span>
