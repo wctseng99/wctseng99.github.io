@@ -16,7 +16,7 @@ function Title({ onTitleClick }) {
   const [isSideMenuOpen, setSideMenuOpen] = useState(false);
 
   const handlePortfolioClick = () => {
-    navigate("/portfolio");
+    navigate("/about");
   };
 
   const handleMenuToggle = () => {

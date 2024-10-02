@@ -20,8 +20,8 @@ function App() {
             </div>
           }
         />
-        {/* Portfolio ("/portfolio") route */}
-        <Route path="/portfolio" element={<Portfolio />} />
+        {/* Portfolio ("/about") route */}
+        <Route path="/about" element={<Portfolio />} />
       </Routes>
     </Router>
   );
