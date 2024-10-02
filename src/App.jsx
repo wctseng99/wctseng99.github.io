@@ -12,7 +12,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="bg-zinc-300 h-screen w-screen">
+            <div className="bg-white h-screen w-screen">
               <Canvas style={{ position: "absolute" }}>
                 <Sphere />
               </Canvas>

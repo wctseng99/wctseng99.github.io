@@ -28,6 +28,11 @@ html {
     bottom: 0;
   }
 
+  .bottom-dis-2:after {
+    bottom: 2px;
+  }
+
+
   /* Dark cmode underline */
   .dark .hover-underline-animation::after {
     background-color: #7dd3fc;
