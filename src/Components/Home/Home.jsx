@@ -13,7 +13,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="relative lg:sticky w-full lg:top-20 lg:max-h-screen lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
+    <div className="relative lg:sticky w-full lg:top-40 lg:max-h-screen lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
       <div
         className="mb-2 flex-col items-start justify-between"
         data-aos="fade-up"

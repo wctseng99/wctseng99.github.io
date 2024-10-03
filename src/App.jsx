@@ -9,19 +9,7 @@ function App() {
     <Router>
       <Routes>
         {/* Sphere page at the root ("/") */}
-        <Route
-          path="/"
-          element={
-            <div className="bg-white h-screen w-screen">
-              <Canvas style={{ position: "absolute" }}>
-                <Sphere />
-              </Canvas>
-              <Title />
-            </div>
-          }
-        />
-        {/* Portfolio ("/about") route */}
-        <Route path="/about" element={<Portfolio />} />
+        <Route path="/" element={<Portfolio />} />
       </Routes>
     </Router>
   );
