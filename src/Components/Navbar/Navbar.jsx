@@ -90,7 +90,7 @@ const Navbar = () => {
             isSideMenuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <div className="flex items-center justify-between w-full border-b border-slate-300 bg-white dark:bg-slate-900 py-4">
+          <div className="flex items-center justify-between w-full border-b border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 py-4">
             <p className="text-2xl font-medium text-center flex-grow py-4 text-slate-700 dark:text-slate-200"></p>
             <button onClick={handleMenuToggle} className="text-5xl px-2">
               <IoClose className="text-3xl dark:text-slate-200"></IoClose>
@@ -161,7 +161,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="text-xs py-4 border-t bg-whit dark:bg-slate-900 dark:text-slate-300 border-slate-300 flex items-center justify-center">
+          <div className="flex items-center justify-center text-xs py-4 border-t border-slate-300 dark:border-slate-600 bg-whit dark:bg-slate-900 dark:text-slate-300">
             <a
               className="me-5 hover-underline-animation left bottom-0 "
               href="mailto: wctseng99@gmail.com"
