@@ -17,7 +17,7 @@ const Portfolio = () => {
         <div className="flex-grow">
           <Navbar />
         </div>
-        <div className="flex items-center lg:px-4">
+        <div className="flex items-center lg:px-4 px-2">
           <ThemeSwitcher />
         </div>
       </div>
