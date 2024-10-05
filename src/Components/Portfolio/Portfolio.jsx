@@ -22,8 +22,6 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="hidden text-slate-800 dark:text-slate-400 lg:flex lg:fixed lg:top-1/2 lg:left-12 lg:items-center lg:z-10 lg:transform lg:-translate-y-1/2 lg:-translate-x-1/2 lg:rotate-90"></div>
-
       <div className="scroll-smooth font-sans relative px-6 py-24 md:px-24 md:py-32 lg:py-0 lg:px-36 dark:bg-slate-900 bg-zinc-200 selection:bg-sky-200 selection:text-slate-900 dark:selection:bg-sky-200 dark:selection:text-slate-900">
         <div
           className="lg:flex lg:flex-row lg:justify-between lg:gap-8"

@@ -50,12 +50,29 @@ function About() {
           I am eager to apply this comprehensive background to make impactful
           contributions in the field of software engineering.
         </p>
-        <div className="mt-6">
-          <img
-            src="/map.gif"
-            alt="map of taipei"
-            className="rounded-2xl mt-2 w-full max-w-xl mx-auto h-72 object-cover object-bottom hover:shadow-xl"
-          />
+
+        <div
+          className="relative mt-6 svg-container w-full h-[500px] bg-no-repeat bg-fixed bg-center bg-cover rounded-2xl"
+          style={{
+            backgroundImage: "url('/map_bg.webp')",
+          }}
+        >
+          <svg
+            className="absolute"
+            style={{
+              top: "72%",
+              left: "52%",
+              transform: "translate(-50%, -50%)", // Optional: center the SVG around the top-left corner of its position
+            }}
+            viewBox="0 0 400 400"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g transform="translate(200,200)">
+              <circle id="core" cx="0" cy="0" r="8"></circle>
+              <circle id="radar" cx="0" cy="0" r="8"></circle>
+            </g>
+          </svg>
         </div>
       </div>
     </div>

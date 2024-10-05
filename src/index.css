@@ -51,5 +51,64 @@ html {
   .hover-underline-animation.left:hover::after {
     transform-origin: bottom left;
   }
+
+  /* Container Styles */
+  .svg-container {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .svg-area {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  /* Core Pulse Animation */
+  #core {
+    fill: #1c5ae9;
+    animation: pulse1 1.5s ease-in-out infinite;
+  }
+
+  /* Radar Pulse Animation */
+  #radar {
+    fill: rgba(43, 110, 218, 0.5);
+    animation: pulse2 1.5s ease-in-out infinite;
+  }
+
+  /* Pulse 1 Keyframes */
+  @keyframes pulse1 {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    30% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(2);
+    }
+  }
+
+  /* Pulse 2 Keyframes */
+  @keyframes pulse2 {
+    0% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(6, 6);
+      opacity: 0;
+    }
+  }
+
 }
 
