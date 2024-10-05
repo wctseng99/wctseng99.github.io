@@ -1,10 +1,10 @@
 import React from "react";
 
-function about() {
+function About() {
   return (
     <div className="mb-24 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
-        <h2 className="py-4 text-2xl text-slate-800 dark:text-slate-300 ">
+        <h2 className="py-4 text-2xl text-slate-800 dark:text-slate-300">
           About
         </h2>
       </div>
@@ -26,7 +26,7 @@ function about() {
           science. Throughout my academic journey, I garnered valuable
           experience through publications in both international and domestic
           journals.
-        </p>{" "}
+        </p>
         <p className="mb-4 leading-loose">
           Following my graduation from NTU, I joined the{" "}
           <span className="font-semibold text-slate-800 dark:text-slate-200 transition-all duration-300 ease-in-out">
@@ -50,9 +50,16 @@ function about() {
           I am eager to apply this comprehensive background to make impactful
           contributions in the field of software engineering.
         </p>
+        <div className="mt-6">
+          <img
+            src="/map.gif"
+            alt="map of taipei"
+            className="rounded-2xl mt-2 w-full max-w-xl mx-auto h-72 object-cover object-bottom hover:shadow-xl"
+          />
+        </div>
       </div>
     </div>
   );
 }
 
-export default about;
+export default About;

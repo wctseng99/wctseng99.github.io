@@ -34,7 +34,7 @@ const Portfolio = () => {
           <div className="lg:w-1/3">
             <Home />
           </div>
-          <div className="lg:w-2/3 lg:py-20">
+          <div className="lg:w-2/3 lg:py-16">
             <Element name="about">
               <div>
                 <About />

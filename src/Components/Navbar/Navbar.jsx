@@ -161,7 +161,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="flex items-center justify-center text-xs py-4 border-t border-slate-300 dark:border-slate-600 bg-whit dark:bg-slate-900 dark:text-slate-300">
+          <div className="flex items-center justify-center text-xs py-4 border-t border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 dark:text-slate-300">
             <a
               className="me-5 hover-underline-animation left bottom-0 "
               href="mailto: wctseng99@gmail.com"
