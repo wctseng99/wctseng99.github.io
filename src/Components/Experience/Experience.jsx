@@ -103,7 +103,7 @@ function Experience() {
         <img
           src="/ra.png"
           alt="Research"
-          className="rounded-xl mt-2 w-full max-w-xl mx-auto group-hover:shadow-xl"
+          className="rounded-xl mt-2 w-full max-w-xl mx-auto shadow-xl"
         ></img>
       </div>
 

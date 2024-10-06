@@ -204,7 +204,7 @@ function Project() {
         <div>
           <img
             src="/poster2.webp"
-            className="rounded-xl mt-2 w-full max-w-xl mx-auto group-hover:shadow-xl"
+            className="rounded-xl mt-2 w-full max-w-xl mx-auto shadow-xl"
           ></img>
         </div>
       </div>

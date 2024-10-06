@@ -55,7 +55,7 @@ function About() {
           <img
             src="/map_bg.webp"
             alt="Background"
-            className="w-full rounded-3xl"
+            className="w-full rounded-3xl shadow-lg"
           />
           <svg
             className="absolute"
