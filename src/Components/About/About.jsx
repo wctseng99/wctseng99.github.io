@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 
 function About() {
   return (
@@ -51,18 +51,18 @@ function About() {
           contributions in the field of software engineering.
         </p>
 
-        <div
-          className="relative mt-6 svg-container w-full h-[500px] bg-no-repeat bg-fixed bg-center bg-cover rounded-2xl"
-          style={{
-            backgroundImage: "url('/map_bg.webp')",
-          }}
-        >
+        <div className="relative mt-6 svg-container max-w-xl mx-auto">
+          <img
+            src="/map_bg.webp"
+            alt="Background"
+            className="w-full rounded-3xl"
+          />
           <svg
             className="absolute"
             style={{
-              top: "72%",
+              top: "74%",
               left: "52%",
-              transform: "translate(-50%, -50%)", // Optional: center the SVG around the top-left corner of its position
+              transform: "translate(-50%, -50%)",
             }}
             viewBox="0 0 400 400"
             xmlns="http://www.w3.org/2000/svg"
