@@ -66,13 +66,13 @@ html {
   /* Core Pulse Animation */
   #core {
     fill: #1c5ae9;
-    animation: pulse1 1.5s ease-in-out infinite;
+    animation: pulse1 2s ease-in-out infinite;
   }
 
   /* Radar Pulse Animation */
   #radar {
     fill: rgba(43, 110, 218, 0.5);
-    animation: pulse2 1.5s ease-in-out infinite;
+    animation: pulse2 2s ease-in-out infinite;
   }
 
   /* Pulse 1 Keyframes */

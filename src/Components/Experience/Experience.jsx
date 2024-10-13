@@ -11,23 +11,28 @@ function Experience() {
         </h2>
       </div>
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
-        <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
-          AUG 2023 - OCT 2023
-        </header>
-        <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+        <div class="flex items-center">
+          <img src="e3-logo.svg" class="h-12 mr-4 mb-1" alt="E3 Icon" />
           <div>
-            <div className="inline-flex items-center font-medium leading-tight text-base">
-              <a
-                href="https://e3group.caece.net/"
-                target="_blank"
-                rel="noopener"
-              >
-                <span>Research Assistant • E3 Research Group @ NTU</span>
-              </a>
-              <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
-            </div>
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+              AUG 2023 - OCT 2023
+            </header>
+            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+              <div>
+                <div className="inline-flex items-center font-medium leading-tight text-base">
+                  <a
+                    href="https://e3group.caece.net/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <span>Research Assistant • E3 Research Group @ NTU</span>
+                  </a>
+                  <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
+                </div>
+              </div>
+            </h3>
           </div>
-        </h3>
+        </div>
 
         <p className="mb-4 leading-loose">
           In this role, my team and I designed a comprehensive strategy system
@@ -108,24 +113,31 @@ function Experience() {
       </div>
 
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
-        <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
-          AUG 2022 - FEB 2023
-        </header>
-        <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
-          <div>
-            <div className="inline-flex items-center font-medium leading-tight text-base">
-              <a
-                href="http://www.eng.ntu.edu.tw/"
-                target="_blank"
-                rel="noopener"
-              >
-                <span>Teaching Assistant • College of Engineering @ NTU</span>
-              </a>
-              <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
-            </div>
-          </div>
-        </h3>
+        <div class="flex items-center">
+          <img src="NTU-logo.svg" class="h-14 mr-4 mb-1" alt="NTU Icon" />
 
+          <div>
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+              AUG 2022 - FEB 2023
+            </header>
+            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+              <div>
+                <div className="inline-flex items-center font-medium leading-tight text-base">
+                  <a
+                    href="http://www.eng.ntu.edu.tw/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <span>
+                      Teaching Assistant • College of Engineering @ NTU
+                    </span>
+                  </a>
+                  <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
         <p className="mb-4 leading-loose">
           In my graduate studies, I served as a teaching assistant for the
           Energy Systems Engineering and Economics course (CIE5143/ ChemE5071).
