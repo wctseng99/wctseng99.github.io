@@ -10,11 +10,123 @@ function Experience() {
           Experience
         </h2>
       </div>
+
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
         <div class="flex items-center">
-          <img src="e3-logo.svg" class="h-12 mr-4 mb-1" alt="E3 Icon" />
+          <svg
+            class="h-14 mr-4 mb-1 dark:hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 150 150"
+          >
+            <image
+              href="micron-logo.svg"
+              x="0"
+              y="0"
+              width="150"
+              height="150"
+            />
+          </svg>
+
+          <svg
+            class="h-14 mr-4 mb-1 hidden dark:block"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 150 150"
+          >
+            <image
+              href="micron-logo-white.svg"
+              x="0"
+              y="0"
+              width="150"
+              height="150"
+            />
+          </svg>
           <div>
-            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
+              JUL 2024 - Present
+            </header>
+            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+              <div>
+                <div className="inline-flex items-center font-medium leading-tight text-base">
+                  <a
+                    href="https://www.micron.com/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <span>Software Engineer • Micron Technology</span>
+                  </a>
+                  <AiOutlineArrowRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:translate-x-1" />
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
+
+        <p className="mb-4 leading-loose">
+          As a member of the probe data team, I contributed to the development
+          of systems for probe data collection, management, and processing,
+          aimed at improving product classification and boosting production
+          yield. Our team manages and maintains software across global
+          manufacturing sites, overseeing over 1,200 Linux compute nodes. My
+          role also involved optimizing ETL pipelines for seamless data
+          processing from databases to web services, ensuring both efficiency
+          and accuracy. Additionally, I designed web applications for data
+          management, enabling smooth integration and transformation of cloud
+          and local data storage.
+        </p>
+        <ul className="mt-2 flex flex-wrap mb-4">
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Database
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Linux
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Azure Cloud
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              CI/CD
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Docker
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Scrum
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              C++
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Typescript
+            </div>
+          </li>
+          <li className="mr-2 mt-2">
+            <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
+              Angular.js
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+        <div class="flex items-center">
+          <img src="e3-logo.svg" class="h-11 mr-4 mb-1" alt="E3 Icon" />
+          <div>
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
               AUG 2023 - OCT 2023
             </header>
             <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
@@ -117,7 +229,7 @@ function Experience() {
           <img src="NTU-logo.svg" class="h-14 mr-4 mb-1" alt="NTU Icon" />
 
           <div>
-            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
               AUG 2022 - FEB 2023
             </header>
             <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
@@ -171,23 +283,6 @@ function Experience() {
           </li>
         </ul>
       </div>
-      {/* <div className="mb-12">
-        <h3 className="font-medium mb-2 leading-snug group">
-          <div>
-            <a
-              className="inline-flex items-center font-medium leading-tight text-base"
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener"
-            >
-              <span className="hover:dark:text-slate-200 hover:text-blue-700">
-                View Tseng's C.V.
-              </span>
-              <BsArrowUpRight className="ml-2 text-xs shrink-0 transition-transform duration-100 ease-in-out group-hover:scale-125" />
-            </a>
-          </div>
-        </h3>
-      </div> */}
     </div>
   );
 }

@@ -144,6 +144,9 @@ function Project() {
         </a>
       </div> */}
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
+        <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
+          MAY 2022 - AUG 2022
+        </header>
         <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
           <div>
             <div className="inline-flex items-center font-medium leading-tight text-base">
