@@ -32,7 +32,7 @@ const Navbar = () => {
               duration={500}
               isDynamic={true}
               offset={-100}
-              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0"
+              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0 tracking-tight"
               activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
               <span>About</span>
@@ -46,7 +46,7 @@ const Navbar = () => {
               duration={200}
               isDynamic={true}
               offset={-100}
-              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0"
+              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0 tracking-tight"
               activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
               <span>Experience</span>
@@ -60,7 +60,7 @@ const Navbar = () => {
               duration={500}
               isDynamic={true}
               offset={-100}
-              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0"
+              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0 tracking-tight"
               activeClass="text-blue-700 dark:text-cyan-300 nav-active"
             >
               <span>Projects</span>
@@ -72,7 +72,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Resume"
-              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0"
+              className="group cursor-pointer dark:text-slate-200 flex hover-underline-animation left bottom-0 tracking-tight"
             >
               <span>Resume</span>
             </a>
