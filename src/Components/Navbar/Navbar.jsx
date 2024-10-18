@@ -86,17 +86,17 @@ const Navbar = () => {
           <IoMenuOutline className="text-4xl text-slate-600 hover:text-blue-700 dark:text-slate-200"></IoMenuOutline>
         </button>
         <div
-          className={`fixed inset-y-0 inset-x-0 z-10 bg-white dark:bg-slate-900 flex flex-col h-dvh transform transition-transform duration-300 ease-in-out ${
+          className={`fixed inset-y-0 inset-x-0 z-10 bg-zinc-200 dark:bg-slate-900 flex flex-col h-dvh transform transition-transform duration-300 ease-in-out ${
             isSideMenuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <div className="flex items-center justify-between w-full border-b border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 py-4">
+          <div className="flex items-center justify-between w-full border-b border-slate-300 dark:border-slate-600 bg-zinc-200 dark:bg-slate-900 py-4">
             <p className="text-2xl font-medium text-center flex-grow py-4 text-slate-700 dark:text-slate-200"></p>
             <button onClick={handleMenuToggle} className="text-5xl px-2">
               <IoClose className="text-3xl dark:text-slate-200"></IoClose>
             </button>
           </div>
-          <ul className="flex-grow flex flex-col bg-white dark:bg-slate-900 items-start py-10 px-5">
+          <ul className="flex-grow flex flex-col bg-zinc-200 dark:bg-slate-900 items-start py-10 px-5">
             <li className="mb-4">
               <a
                 className="text-zinc-500 flex flex-row items-center group text-2xl cursor-pointer"
@@ -161,7 +161,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="flex items-center justify-center text-xs py-4 border-t border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 dark:text-slate-300">
+          <div className="flex items-center justify-center text-xs py-4 border-t border-slate-300 dark:border-slate-600 bg-zinc-200 dark:bg-slate-900 dark:text-slate-300">
             <a
               className="me-5 hover-underline-animation left bottom-0 "
               href="mailto: wctseng99@gmail.com"
