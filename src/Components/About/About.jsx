@@ -29,7 +29,7 @@ function About() {
           During my time with the{" "}
           <span className="font-semibold text-slate-800 dark:text-slate-200 transition-all duration-300 ease-in-out">
             <a
-              href="https://www.e3group.caece.net/"
+              href="https://e3group.caece.net/"
               target="_blank"
               rel="noopener"
               className="hover-underline-animation left"
