@@ -41,10 +41,7 @@ function Experience() {
             />
           </svg>
           <div>
-            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
-              JUL 2024 - Present
-            </header>
-            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-slate-100">
               <div>
                 <div className="inline-flex items-center font-medium leading-tight text-base">
                   <a
@@ -58,6 +55,9 @@ function Experience() {
                 </div>
               </div>
             </h3>
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-cyan-500">
+              JUL 2024 - Present
+            </header>
           </div>
         </div>
 
@@ -126,10 +126,7 @@ function Experience() {
         <div class="flex items-center">
           <img src="e3-logo.svg" class="h-11 mr-4 mb-1" alt="E3 Icon" />
           <div>
-            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
-              AUG 2023 - OCT 2023
-            </header>
-            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-slate-100">
               <div>
                 <div className="inline-flex items-center font-medium leading-tight text-base">
                   <a
@@ -143,6 +140,9 @@ function Experience() {
                 </div>
               </div>
             </h3>
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-cyan-500">
+              AUG 2023 - OCT 2023
+            </header>
           </div>
         </div>
 
@@ -156,35 +156,6 @@ function Experience() {
           recommending optimal allocation of transportation subsidies for
           maximum carbon reduction benefits.
         </p>
-
-        {/* <ul className="mt-2 flex flex-wrap">
-          <li className="mr-4">
-            <a
-              className="mt-2 inline-flex items-center text-sm font-medium"
-              href="https://github.com/wctseng99/presidential-cup-hackathon-2023"
-              target="_blank"
-              rel="noopener"
-            >
-              <BsLink45Deg className="mr-1.5" />
-              <span className="hover-underline-animation left bottom-0">
-                AI Net Zero Think Tank
-              </span>
-            </a>
-          </li>
-          <li className="mr-4">
-            <a
-              className="mt-2 inline-flex items-center text-sm font-medium"
-              href="https://github.com/wctseng99/emission-intensity-tw"
-              target="_blank"
-              rel="noopener"
-            >
-              <BsLink45Deg className="mr-1.5" />
-              <span className="hover-underline-animation left bottom-0">
-                Emission Intensity
-              </span>
-            </a>
-          </li>
-        </ul> */}
         <ul className="mt-2 flex flex-wrap mb-4">
           <li className="mr-2 mt-2">
             <div className="flex items-center rounded-full px-3 py-1 bg-slate-200 text-blue-700 dark:bg-cyan-950 dark:text-cyan-400 text-xs font-medium leading-5">
@@ -229,10 +200,7 @@ function Experience() {
           <img src="NTU-logo.svg" class="h-14 mr-4 mb-1" alt="NTU Icon" />
 
           <div>
-            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
-              AUG 2022 - FEB 2023
-            </header>
-            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-cyan-300">
+            <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-slate-100">
               <div>
                 <div className="inline-flex items-center font-medium leading-tight text-base">
                   <a
@@ -248,6 +216,9 @@ function Experience() {
                 </div>
               </div>
             </h3>
+            <header className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-cyan-500">
+              AUG 2022 - FEB 2023
+            </header>
           </div>
         </div>
         <p className="mb-4 leading-loose">
