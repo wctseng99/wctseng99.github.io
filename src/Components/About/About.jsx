@@ -10,8 +10,8 @@ function About() {
       </div>
       <div>
         <p className="mb-4 leading-loose">
-          In 2023, I completed my Master's degree in Computer-Aided Engineering
-          at{" "}
+          Back in 2023, I completed my Master's degree in Computer-Aided
+          Engineering (CAE) at{" "}
           <span className="font-semibold text-slate-800 dark:text-slate-200 z-10 transition-all duration-300 ease-in-out">
             <a
               href="https://www.ntu.edu.tw/"
@@ -22,13 +22,11 @@ function About() {
               National Taiwan University
             </a>
           </span>
-          , where I developed a robust foundation in computer science and data
-          science. Throughout my academic journey, I garnered valuable
-          experience through publications in both international and domestic
-          journals.
+          , where I gained in-depth knowledge of computer science and data
+          science.
         </p>
         <p className="mb-4 leading-loose">
-          Following my graduation from NTU, I joined the{" "}
+          During my time with the{" "}
           <span className="font-semibold text-slate-800 dark:text-slate-200 transition-all duration-300 ease-in-out">
             <a
               href="https://www.e3group.caece.net/"
@@ -39,19 +37,33 @@ function About() {
               E3 research group
             </a>
           </span>{" "}
-          as a research assistant. Engaging in the Taiwan Presidential
-          Hackathon, my focus was on crafting a system for carbon reduction in
-          transportation and energy, earning us a spot in the finals and an
-          honourable mention.
+          (2021-2023), I focused on research related to energy, environment, and
+          economics, while also participating in hackathons, publishing in
+          international journals, presenting at various conferences, and serving
+          as a teaching assistant.
         </p>
         <p className="mb-4 leading-loose">
-          These diverse experiences have not only enhanced my technical
-          proficiency but also nurtured a collaborative and innovative mindset.
-          I am eager to apply this comprehensive background to make impactful
-          contributions in the field of software engineering.
+          Currently, I am a software engineer on the global team at{" "}
+          <span className="font-semibold text-slate-800 dark:text-slate-200 z-10 transition-all duration-300 ease-in-out">
+            <a
+              href="https://www.micron.com/"
+              target="_blank"
+              rel="noopener"
+              className="hover-underline-animation left"
+            >
+              Micron Technology
+            </a>
+          </span>
+          , where I am responsible for developing critical software solutions
+          that serve our global clientele.
+        </p>
+        <p className="mb-4 leading-loose">
+          I am interested in <u>data science</u>, <u>data visualization</u>,{" "}
+          <u>software development</u>, and areas related to <u>energy</u>, the{" "}
+          <u>environment</u>, and <u>economics</u>.
         </p>
 
-        <div className="relative mt-6 svg-container max-w-xl mx-auto">
+        <div className="relative mt-8 svg-container max-w-xl mx-auto">
           <img
             src="/map_bg.webp"
             alt="Background"
