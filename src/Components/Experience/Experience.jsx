@@ -12,9 +12,9 @@ function Experience() {
       </div>
 
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
-        <div class="flex items-center">
+        <div className="flex items-center">
           <svg
-            class="h-14 mr-4 mb-1 dark:hidden"
+            className="h-14 mr-4 mb-1 dark:hidden"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 150 150"
           >
@@ -28,7 +28,7 @@ function Experience() {
           </svg>
 
           <svg
-            class="h-14 mr-4 mb-1 hidden dark:block"
+            className="h-14 mr-4 mb-1 hidden dark:block"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 150 150"
           >
@@ -123,8 +123,8 @@ function Experience() {
       </div>
 
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
-        <div class="flex items-center">
-          <img src="e3-logo.svg" class="h-11 mr-4 mb-1" alt="E3 Icon" />
+        <div className="flex items-center">
+          <img src="e3-logo.svg" className="h-11 mr-4 mb-1" alt="E3 Icon" />
           <div>
             <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-slate-100">
               <div>
@@ -196,8 +196,8 @@ function Experience() {
       </div>
 
       <div className="mb-12 lg:hover:bg-gray-100/60 dark:lg:hover:bg-gray-800/50 dark:lg:hover:drop-shadow-md lg:-ml-4 lg:px-4 lg:py-4 lg:rounded-lg group">
-        <div class="flex items-center">
-          <img src="NTU-logo.svg" class="h-14 mr-4 mb-1" alt="NTU Icon" />
+        <div className="flex items-center">
+          <img src="NTU-logo.svg" className="h-14 mr-4 mb-1" alt="NTU Icon" />
 
           <div>
             <h3 className="font-medium mb-2 leading-snug text-blue-700 dark:text-slate-100">
