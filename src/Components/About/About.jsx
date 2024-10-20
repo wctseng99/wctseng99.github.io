@@ -37,10 +37,10 @@ function About() {
               E3 research group
             </a>
           </span>{" "}
-          (2021-2023), I focused on research related to energy, environment, and
-          economics, while also participating in hackathons, publishing in
-          international journals, presenting at various conferences, and serving
-          as a teaching assistant.
+          , I focused on research related to energy, environment, and economics,
+          while also participating in hackathons, publishing in international
+          journals, presenting at various conferences, and serving as a teaching
+          assistant.
         </p>
         <p className="mb-4 leading-loose">
           Currently, I am a software engineer on the global team at{" "}
