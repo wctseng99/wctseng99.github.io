@@ -15,9 +15,9 @@ function Footer() {
       <h2 className="py-4 text-sm font-normal tracking-tight me-2">
         <a href="#">©2024 Jim Tseng.</a>
       </h2>
-      <p className="py-4 text-sm font-normal tracking-tight">
+      {/* <p className="py-4 text-sm font-normal tracking-tight">
         Last updated on: {lastUpdated}
-      </p>
+      </p> */}
     </div>
   );
 }
