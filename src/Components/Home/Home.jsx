@@ -29,10 +29,7 @@ function Home() {
           <a href="/">Jim Tseng</a>
         </h1>
         <div className="mt-4 mb-14 md:text-lg max-w-xs">
-          <div className="mb-6 ">
-            <p className="tracking-tight text-slate-600 dark:text-slate-300">
-              📍 Taipei, Taiwan
-            </p>
+          <div className="mb-6">
             <p className=" tracking-tight text-slate-600 dark:text-slate-300">
               ⌨️ Software Engineer
             </p>

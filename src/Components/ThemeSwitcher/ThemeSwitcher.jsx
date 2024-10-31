@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
-import { IoToggle } from "react-icons/io5";
+import { useTheme } from "../ThemeContext/ThemeContext";
 
 const ThemeSwitcher = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    const isDarkMode = localStorage.getItem("darkMode") === "true";
-    setDarkMode(isDarkMode);
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", darkMode);
-    localStorage.setItem("darkMode", darkMode);
-  }, [darkMode]);
+  const { darkMode, setDarkMode } = useTheme();
 
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => !prevMode);
@@ -26,8 +16,6 @@ const ThemeSwitcher = () => {
         darkMode
           ? "border-slate-500 hover:border-slate-200"
           : "border-slate-500 hover:border-blue-600"
-        // ? "bg-gradient-to-bl from-blue-600 via-sky-500 to-cyan-400"
-        // : "bg-gradient-to-bl from-blue-600 via-cyan-600 to-green-600"
       }`}
     >
       <div
