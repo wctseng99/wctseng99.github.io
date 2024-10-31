@@ -1,3 +1,4 @@
 # Personal website
 
-built with Javascript, React.js, Three.js, Vite.js, AOS ,and Tailwindcss. 
+Built with:
+[![My Skills](https://skillicons.dev/icons?i=js,githubactions,d3,react,nodejs,tailwind,vite,vscode&perline=4)](https://skillicons.dev)
