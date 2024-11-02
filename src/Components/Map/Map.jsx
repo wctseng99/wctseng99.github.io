@@ -141,7 +141,12 @@ function Map() {
   }, [darkMode]);
 
   return (
-    <svg ref={svgRef} width="100%" height="100%" className="rounded-2xl"></svg>
+    <svg
+      ref={svgRef}
+      width="100%"
+      height="100%"
+      className="rounded-2xl shadow-lg"
+    ></svg>
   );
 }
 
