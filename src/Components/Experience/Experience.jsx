@@ -130,7 +130,7 @@ function Experience() {
               <div>
                 <div className="inline-flex items-center font-medium leading-tight text-base">
                   <a
-                    href="https://e3group.caece.net/"
+                    href="https://e3center.caece.net/"
                     target="_blank"
                     rel="noopener"
                   >
