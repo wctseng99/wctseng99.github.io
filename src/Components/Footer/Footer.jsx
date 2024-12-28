@@ -12,12 +12,9 @@ function Footer() {
 
   return (
     <div className="text-slate-700 dark:text-slate-400 flex">
-      <h2 className="py-4 text-sm font-normal tracking-tight me-2">
+      {/* <h2 className="p-4 text-sm font-normal tracking-tight me-2">
         <a href="#">©2024 Jim Tseng.</a>
-      </h2>
-      {/* <p className="py-4 text-sm font-normal tracking-tight">
-        Last updated on: {lastUpdated}
-      </p> */}
+      </h2> */}
     </div>
   );
 }

@@ -89,7 +89,7 @@ function Home() {
           </li>
         </ul> */}
         <div className="mb-16">
-          <ul className="ml-1 mt-8 flex items-center">
+          <ul className="mt-8 flex items-center">
             <li className="mr-5 text-2xl">
               <a
                 className="block hover:text-blue-700 hover:dark:text-slate-200"
@@ -131,6 +131,11 @@ function Home() {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="text-slate-700 dark:text-slate-400 flex">
+          <h2 className="text-sm font-normal tracking-tight me-2">
+            <a href="#">© 2024 Jim Tseng.</a>
+          </h2>
         </div>
       </div>
     </div>
