@@ -169,7 +169,7 @@ const Navbar = () => {
               wctseng99@gmail.com
             </a>
             <span className="me-5">|</span>
-            <span className="me-5">©2024 Jim Tseng.</span>
+            <span className="me-5">©2025 Jim Tseng.</span>
           </div>
         </div>
       </div>

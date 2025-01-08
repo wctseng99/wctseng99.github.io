@@ -134,7 +134,9 @@ function Home() {
         </div>
         <div className="text-slate-700 dark:text-slate-400 flex">
           <h2 className="text-sm font-normal tracking-tight me-2">
-            <a href="#">© 2025 Jim Tseng.</a>
+            <a href="#" className="hidden lg:flex">
+              © 2025 Jim Tseng.
+            </a>
           </h2>
         </div>
       </div>
