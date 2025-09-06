@@ -189,7 +189,7 @@ function Experience() {
           </li>
         </ul>
         <img
-          src="/pa.webp"
+          src="/ra.webp"
           alt="Research"
           className="rounded-xl mt-2 w-full max-w-xl mx-auto shadow-xl"
         ></img>
