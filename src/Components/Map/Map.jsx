@@ -5,12 +5,17 @@ import { VectorTile } from "@mapbox/vector-tile";
 import Pbf from "pbf";
 import { useTheme } from "../ThemeContext/ThemeContext";
 
-function Map() {
+function Map({ onLoadingChange }) {
   const svgRef = useRef();
   const API_KEY = "cfNfEQR1Qkaz-6mvWl8cpw"; // public api key from stackoverflow
   const { darkMode } = useTheme();
 
   useEffect(() => {
+    // 開始載入，通知父組件
+    if (onLoadingChange) {
+      onLoadingChange(true);
+    }
+
     const width = 600;
     const height = 400;
 
@@ -137,6 +142,17 @@ function Map() {
         .attr("r", 6)
         .attr("fill", colors.marker.stroke)
         .attr("stroke-width", 2);
+
+      // 載入完成，通知父組件
+      if (onLoadingChange) {
+        onLoadingChange(false);
+      }
+    }).catch((error) => {
+      console.error('Map loading failed:', error);
+      // 即使載入失敗也要結束loading狀態
+      if (onLoadingChange) {
+        onLoadingChange(false);
+      }
     });
   }, [darkMode]);
 

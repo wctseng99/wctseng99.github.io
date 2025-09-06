@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Map from "../Map/Map";
 
-function About() {
+function About({ onMapLoadingChange }) {
   return (
     <div className="mb-24 text-slate-700 dark:text-slate-400">
       <div className="sticky lg:relative top-0 z-10 mb-4 backdrop-blur">
@@ -70,7 +70,7 @@ function About() {
             alt="Background"
             className="w-full rounded-3xl shadow-lg"
           /> */}
-          <Map />
+          <Map onLoadingChange={onMapLoadingChange} />
           <div className="absolute right-0 bottom-4 bg-slate-700 bg-opacity-90 dark:bg-opacity-90 dark:bg-slate-200 text-slate-100 dark:text-slate-900 rounded-full py-2 px-4">
             <p className="font-bolder text-sm">Taipei, 台北</p>
           </div>

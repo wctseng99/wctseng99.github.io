@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Element } from "react-scroll";
 import { Link } from "react-scroll";
 import Navbar from "../Navbar/Navbar";
@@ -9,9 +9,16 @@ import Project from "../Project/Project";
 import Footer from "../Footer/Footer";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 import { ThemeProvider } from "../ThemeContext/ThemeContext";
+import LoadingOverlay from "../LoadingOverlay/LoadingOverlay";
 import { BsArrowUpRight, BsFileText } from "react-icons/bs";
 
 const Portfolio = () => {
+  const [isMapLoading, setIsMapLoading] = useState(false);
+
+  const handleMapLoadingChange = (loading) => {
+    setIsMapLoading(loading);
+  };
+
   return (
     <>
       <ThemeProvider>
@@ -37,7 +44,7 @@ const Portfolio = () => {
             <div className="lg:w-2/3 lg:py-16">
               <Element name="about">
                 <div>
-                  <About />
+                  <About onMapLoadingChange={handleMapLoadingChange} />
                 </div>
               </Element>
               <Element name="experience">
@@ -73,6 +80,7 @@ const Portfolio = () => {
           <BsFileText className="text-2xl" />
         </a>
       </div> */}
+        <LoadingOverlay isVisible={isMapLoading} />
       </ThemeProvider>
     </>
   );
