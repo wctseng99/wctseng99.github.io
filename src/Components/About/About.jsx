@@ -65,11 +65,6 @@ function About({ onMapLoadingChange }) {
         </p>
 
         <div className="relative mt-8 svg-container max-w-xl mx-auto">
-          {/* <img
-            src="/map_bg.webp"
-            alt="Background"
-            className="w-full rounded-3xl shadow-lg"
-          /> */}
           <Map onLoadingChange={onMapLoadingChange} />
           <div className="absolute right-0 bottom-4 bg-slate-700 bg-opacity-90 dark:bg-opacity-90 dark:bg-slate-200 text-slate-100 dark:text-slate-900 rounded-full py-2 px-4">
             <p className="font-bolder text-sm">Taipei, 台北</p>

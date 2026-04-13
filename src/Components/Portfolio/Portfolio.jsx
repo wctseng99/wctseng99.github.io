@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, lazy, Suspense } from "react";
 import { Element } from "react-scroll";
-import { Link } from "react-scroll";
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
 import About from "../About/About";
-import Experience from "../Experience/Experience";
-import Project from "../Project/Project";
 import Footer from "../Footer/Footer";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 import { ThemeProvider } from "../ThemeContext/ThemeContext";
 import LoadingOverlay from "../LoadingOverlay/LoadingOverlay";
-import { BsArrowUpRight, BsFileText } from "react-icons/bs";
+
+const Experience = lazy(() => import("../Experience/Experience"));
+const Project = lazy(() => import("../Project/Project"));
 
 const Portfolio = () => {
   const [isMapLoading, setIsMapLoading] = useState(false);
@@ -22,7 +21,7 @@ const Portfolio = () => {
   return (
     <>
       <ThemeProvider>
-        <div className="sticky top-0 flex justify-between border-b border-slate-300 dark:border-slate-600 p-2 z-10 w-full backdrop-blur dark:bg-slate-900 bg-zinc-200 selection:bg-sky-200 selection:text-slate-900 dark:selection:bg-sky-200 dark:selection:text-slate-900">
+        <div className="sticky top-0 flex justify-between border-b border-slate-300 dark:border-slate-600 p-2 z-10 w-full backdrop-blur dark:bg-slate-900 bg-zinc-200">
           <div className="flex-grow">
             <Navbar />
           </div>
@@ -31,7 +30,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="scroll-smooth font-sans relative px-6 py-24 md:px-24 md:py-32 lg:py-0 lg:px-36 dark:bg-slate-900 bg-zinc-200 selection:bg-sky-200 selection:text-slate-900 dark:selection:bg-sky-200 dark:selection:text-slate-900">
+        <div className="scroll-smooth font-sans relative px-6 py-24 md:px-24 md:py-32 lg:py-0 lg:px-36 dark:bg-slate-900 bg-zinc-200">
           <div
             className="lg:flex lg:flex-row lg:justify-between lg:gap-8"
             data-aos="fade-up"
@@ -47,16 +46,18 @@ const Portfolio = () => {
                   <About onMapLoadingChange={handleMapLoadingChange} />
                 </div>
               </Element>
-              <Element name="experience">
-                <div>
-                  <Experience />
-                </div>
-              </Element>
-              <Element name="project">
-                <div>
-                  <Project />
-                </div>
-              </Element>
+              <Suspense fallback={null}>
+                <Element name="experience">
+                  <div>
+                    <Experience />
+                  </div>
+                </Element>
+                <Element name="project">
+                  <div>
+                    <Project />
+                  </div>
+                </Element>
+              </Suspense>
               <div>
                 <Footer />
               </div>

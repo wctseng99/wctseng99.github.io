@@ -1,17 +1,9 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { Link } from "react-scroll";
+import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { IoDocumentText } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaMedium } from "react-icons/fa6";
 
 function Home() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className="relative lg:sticky w-full lg:top-40 lg:max-h-screen lg:flex lg:flex-col lg:content-between justify-between text-slate-700 dark:text-slate-400">
       <div

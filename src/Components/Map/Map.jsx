@@ -1,20 +1,22 @@
-import React, { useRef, useEffect, useState } from "react";
-import * as d3 from "d3";
+import React, { useRef, useEffect } from "react";
+import { select } from "d3-selection";
+import { geoMercator, geoPath } from "d3-geo";
 import { tile } from "d3-tile";
 import { VectorTile } from "@mapbox/vector-tile";
 import Pbf from "pbf";
 import { useTheme } from "../ThemeContext/ThemeContext";
 
-function Map({ onLoadingChange }) {
+const API_KEY = "cfNfEQR1Qkaz-6mvWl8cpw"; // public api key from stackoverflow
+const tileCache = new Map();
+
+function MapView({ onLoadingChange }) {
   const svgRef = useRef();
-  const API_KEY = "cfNfEQR1Qkaz-6mvWl8cpw"; // public api key from stackoverflow
+  const cachedTilesRef = useRef(null);
   const { darkMode } = useTheme();
 
   useEffect(() => {
-    // 開始載入，通知父組件
-    if (onLoadingChange) {
-      onLoadingChange(true);
-    }
+    let cancelled = false;
+    if (onLoadingChange) onLoadingChange(true);
 
     const width = 600;
     const height = 400;
@@ -36,19 +38,17 @@ function Map({ onLoadingChange }) {
 
     const colors = darkMode ? themeColors.dark : themeColors.light;
 
-    const svg = d3
-      .select(svgRef.current)
+    const svg = select(svgRef.current)
       .attr("viewBox", `0 0 ${width} ${height}`)
       .attr("preserveAspectRatio", "xMidYMid meet");
 
-    const projection = d3
-      .geoMercator()
+    const projection = geoMercator()
       .center([121.54, 25.033])
       .scale(Math.pow(2, 21) / (2 * Math.PI))
       .translate([width / 2, height / 2])
       .precision(0);
 
-    const path = d3.geoPath(projection);
+    const path = geoPath(projection);
 
     const tileGenerator = tile()
       .size([width, height])
@@ -74,17 +74,29 @@ function Map({ onLoadingChange }) {
 
     svg.selectAll("*").remove();
 
-    Promise.all(
-      tileGenerator().map(async (d) => {
-        const url = `https://tile.nextzen.org/tilezen/vector/v1/256/all/${d[2]}/${d[0]}/${d[1]}.mvt?api_key=${API_KEY}`;
-        const response = await fetch(url);
-        const buffer = await response.arrayBuffer();
-        const pbf = new Pbf(buffer);
-        const tile = new VectorTile(pbf);
-        d.layers = tile.layers;
+    const fetchTile = async (d) => {
+      const key = `${d[2]}/${d[0]}/${d[1]}`;
+      if (tileCache.has(key)) {
+        d.layers = tileCache.get(key);
         return d;
-      })
-    ).then((tiles) => {
+      }
+      const url = `https://tile.nextzen.org/tilezen/vector/v1/256/all/${d[2]}/${d[0]}/${d[1]}.mvt?api_key=${API_KEY}`;
+      const response = await fetch(url);
+      const buffer = await response.arrayBuffer();
+      const pbf = new Pbf(buffer);
+      const vt = new VectorTile(pbf);
+      tileCache.set(key, vt.layers);
+      d.layers = vt.layers;
+      return d;
+    };
+
+    const tilesPromise = cachedTilesRef.current
+      ? Promise.resolve(cachedTilesRef.current)
+      : Promise.all(tileGenerator().map(fetchTile));
+
+    tilesPromise.then((tiles) => {
+      if (cancelled) return;
+      cachedTilesRef.current = tiles;
       svg.selectAll("*").remove();
 
       svg
@@ -143,17 +155,15 @@ function Map({ onLoadingChange }) {
         .attr("fill", colors.marker.stroke)
         .attr("stroke-width", 2);
 
-      // 載入完成，通知父組件
-      if (onLoadingChange) {
-        onLoadingChange(false);
-      }
+      if (onLoadingChange) onLoadingChange(false);
     }).catch((error) => {
       console.error('Map loading failed:', error);
-      // 即使載入失敗也要結束loading狀態
-      if (onLoadingChange) {
-        onLoadingChange(false);
-      }
+      if (onLoadingChange) onLoadingChange(false);
     });
+
+    return () => {
+      cancelled = true;
+    };
   }, [darkMode]);
 
   return (
@@ -166,4 +176,4 @@ function Map({ onLoadingChange }) {
   );
 }
 
-export default Map;
+export default MapView;
